@@ -1,5 +1,4 @@
-
-
+# https://www.geeksforgeeks.org/linear-search/
 
 def linear_search(x)
     p "A lista de números é"
@@ -10,15 +9,13 @@ def linear_search(x)
     tamanho = lista.length()
     p tamanho
 
-
-    #indice = (0..tamanho).to_a
     
     (0..tamanho-1).to_a.each  do |indice|
-        puts "elementos da lista: " + lista[indice].to_s
+        if lista[indice]==x
+            p "a posição do elemento é"
+            return indice
+        end
     end
-
-
-   
 end
 
 
