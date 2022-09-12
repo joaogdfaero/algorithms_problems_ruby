@@ -18,5 +18,5 @@ def linear_search(x)
     end
 end
 
-
-puts linear_search(110)
+# Elemento procurado
+puts linear_search(20)
