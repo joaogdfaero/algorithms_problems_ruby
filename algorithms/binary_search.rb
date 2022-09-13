@@ -1,8 +1,5 @@
 # https://www.geeksforgeeks.org/binary-search/
 
-# Essa solução é ruim pois precisamos escrever manualmente o código toda vez que dividimos a lista pela metade
-
-
 def binary_search(x)
     p "A lista de números é"
     lista = [10, 20, 80, 30, 60, 50,110, 100, 130, 170]
@@ -11,6 +8,13 @@ def binary_search(x)
     p "A lista ordenada é"
     lista = lista.sort
     p lista
+
+    if lista.include? x
+        p "O elemento está na lista"
+    else
+        p "O elemento NÃO está na lista"
+        exit
+    end
 
     p "O tamanho original da lista é"
     tamanho_O = lista.length()
@@ -53,9 +57,6 @@ def binary_search(x)
         
     end
 
-
-
-    
 end
 
 # Elemento procurado
