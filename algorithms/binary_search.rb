@@ -12,9 +12,9 @@ def binary_search(x)
     lista = lista.sort
     p lista
 
-    p "O tamanho da lista é"
-    tamanho = lista.length()
-    p tamanho
+    p "O tamanho original da lista é"
+    tamanho_O = lista.length()
+    p tamanho_O
 
     p "O menor termo da lista é"
     menor = lista[0] 
@@ -24,30 +24,31 @@ def binary_search(x)
     maior = lista[-1]
     p maior
 
-    if tamanho.odd?
-        tamanho = tamanho + 1 
+    if tamanho_O.odd?
+        tamanho_O = tamanho_O + 1 
     end
 
     p "o termo do meio da lista"
-    mediana = lista[tamanho/2]
+    mediana = lista[tamanho_O/2]
     p mediana
 
-    while lista[0] != lista[-1]
+    while lista[0] != lista[-1] do
         p "O novo tamanho da lista é"
         tamanho = lista.length()
         p tamanho
 
         if x == lista[tamanho/2]
             p "O termo procurado está em"
-            return tamanho/2
+            return (tamanho/2+(tamanho_O-tamanho))
 
         elsif x>lista[tamanho/2]
             p ">"
             lista=lista.drop(tamanho/2) 
-
+            p lista
         elsif x < lista[tamanho/2]
             p "<"
             lista=lista.pop(tamanho/2)
+            p lista
         end
         
     end
