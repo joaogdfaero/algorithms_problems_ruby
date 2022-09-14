@@ -1,2 +1,2 @@
 # algoritimos-spd
-Algoritmos desenvolvidos na mentoria SPD
+Algoritmos desenvolvidos na mentoria SPD (Super Desenvolvedor)
