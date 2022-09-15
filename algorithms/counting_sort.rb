@@ -21,25 +21,22 @@ def counting_sort(lista)
 
      indice =0
      contagem=0
-    
+    p "______________"
     # untill indice = tamanho + 1
-    while indice != tamanho 
+    #while indice != tamanho 
     (0..tamanho).to_a.each do |indice| 
-        p indice
         if lista[indice]==5
             p "o indice é"
             p indice
-            p "o tamanho é"
-            p tamanho
-            p "temos o mesmo elemento"
+            p "a contagem é"
+            p contagem
+            p "temos o mesmo elemento, logo a contagem virou"
             contagem = contagem + 1
-            return contagem
-        # else 
-        #     p "o elemento não está na lista"
-        #     return false
+            p contagem
+            #return contagem
         end
     end
-    end
+    #end
 #end
       
 
