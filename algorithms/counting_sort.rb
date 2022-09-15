@@ -19,10 +19,18 @@ def counting_sort(lista)
     p "O tamanho da lista é"
     p tamanho
 
-    (0..tamanho).to_a.each do |indice|
-        contagem=0
+     indice =0
+     contagem=0
+    
+    # untill indice = tamanho + 1
+    while indice != tamanho 
+    (0..tamanho).to_a.each do |indice| 
         p indice
         if lista[indice]==5
+            p "o indice é"
+            p indice
+            p "o tamanho é"
+            p tamanho
             p "temos o mesmo elemento"
             contagem = contagem + 1
             return contagem
@@ -31,6 +39,8 @@ def counting_sort(lista)
         #     return false
         end
     end
+    end
+#end
       
 
     # (0..tamanho-1).to_a.each  do |indice|
@@ -59,4 +69,4 @@ end
 # para a direita. Essa última tabela seria o "starting index", a posição de início ordenada dos
 # termos do array inicial
 
-p counting_sort([1, 4, 1, 2, 4, 5, 2])
+p counting_sort([1, 4, 1, 2, 5, 5, 2])
