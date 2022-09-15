@@ -14,12 +14,12 @@ def linear_search(x)
         if lista[indice]==x
             p "a posição do elemento é"
             return indice
-        else
-            p "o elemento não está na lista"
-            return false
+        # else
+        #     p "o elemento não está na lista"
+        #     return false
         end
     end
 end
 
 # Elemento procurado
-puts linear_search(66)
+puts linear_search(30)
