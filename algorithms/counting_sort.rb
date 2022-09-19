@@ -66,4 +66,5 @@ end
 # para a direita. Essa última tabela seria o "starting index", a posição de início ordenada dos
 # termos do array inicial
 
-p counting_sort([1, 4, 1, 2, 5, 5, 2])
+p counting_sort([1, 4, 1, 2, 7, 5, 2])
+
