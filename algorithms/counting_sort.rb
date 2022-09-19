@@ -20,22 +20,26 @@ def counting_sort(lista)
     p tamanho
 
      indice =0
-     contagem=0
+     contagem=Array.new(tamanho, 0)
     p "______________"
     # untill indice = tamanho + 1
     #while indice != tamanho 
     (0..tamanho).to_a.each do |indice| 
-        if lista[indice]==5
+        if index.include? lista[indice]
             p "o indice é"
             p indice
             p "a contagem é"
             p contagem
             p "temos o mesmo elemento, logo a contagem virou"
-            contagem = contagem + 1
+            contagem << 1
             p contagem
             #return contagem
         end
     end
+
+# a = [ "a", "b", "c" ]
+# a.include?("b")   #=> true
+
     #end
 #end
       
