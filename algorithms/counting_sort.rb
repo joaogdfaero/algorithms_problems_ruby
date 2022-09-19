@@ -24,44 +24,20 @@ def counting_sort(lista)
     p "______________"
     # untill indice = tamanho + 1
     #while indice != tamanho 
-    (0..tamanho).to_a.each do |indice| 
-        if lista[indice].include? index
+    (0..tamanho-1).to_a.each do |indice| # NÃO FUNCIONA PORQUE ELE CONTA CADA NÚMERO SÓ 1X
+        if index[indice] in lista
             p "o indice é"
             p indice
             p "a contagem é"
             p contagem
             p "temos o mesmo elemento, logo a contagem virou"
-            contagem[indice] = contagem[indice] + 1
+            contagem[indice] = contagem[indice]+1
             p contagem
-            #return contagem
+        else
+            p "não temos o elemento"
         end
     end
-
-# a = [ "a", "b", "c" ]
-# a.include?("b")   #=> true
-
-    #end
-#end
-      
-
-    # (0..tamanho-1).to_a.each  do |indice|
-    #     if lista[indice]==x
-    #         p "a posição do elemento é"
-    #         return indice
-    #     else
-    #         p "o elemento não está na lista"
-    #         return false
-    #     end
-    # end
-
-    
 end
-
-
-
-
-
-
 # 1 - Conta as ocorrências de cada número do array
 # 2 - Nesse novo array das somas das ocorrências, mantém o primeiro termo
 # mas soma o da direita com o da esquerda nos anteriores, criando um novo array
