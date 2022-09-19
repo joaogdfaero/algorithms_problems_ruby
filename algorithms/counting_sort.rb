@@ -25,13 +25,13 @@ def counting_sort(lista)
     # untill indice = tamanho + 1
     #while indice != tamanho 
     (0..tamanho).to_a.each do |indice| 
-        if index.include? lista[indice]
+        if lista[indice].include? index
             p "o indice é"
             p indice
             p "a contagem é"
             p contagem
             p "temos o mesmo elemento, logo a contagem virou"
-            contagem << 1
+            contagem[indice] = contagem[indice] + 1
             p contagem
             #return contagem
         end
