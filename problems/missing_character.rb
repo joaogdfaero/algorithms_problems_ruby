@@ -9,10 +9,21 @@ def missing_character(frase)
     p "A frase é"
     p frase
 
-    if frase.include? "w"
-        p "A frase tem w"
-    end
+    alphabet = ('a'..'z').to_a # alphabeto
+    tamanho = alphabet.length # tamanho do alphabeto
+
+
+        (0..tamanho).to_a.each do |i|
+            if alphabet[i] in frase # ESSE in NO RUBY DÁ SEMPRE TRUE
+                p "A letra #{alphabet[i]} está na frase"
+            else
+                p "essa letra NÃO está na frase"
+            end
+        end
 end
+
+# alphabeto(x) contains in frase?
+# alphabeto(x).delete
 
 
 frase = "welcome to geeksforgeeks"
