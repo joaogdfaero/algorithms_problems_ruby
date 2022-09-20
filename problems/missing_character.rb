@@ -12,14 +12,22 @@ def missing_character(frase)
     alphabet = ('a'..'z').to_a # alphabeto
     tamanho = alphabet.length # tamanho do alphabeto
 
+    #alphabet1 = ('a'..'z').to_a # alphabeto
 
         (0..tamanho-1).to_a.each do |i|
+            p "o índice é"
+            p i
             #if alphabet[i] in frase # ESSE in NO RUBY DÁ SEMPRE TRUE
             #if alphabet[i].include? frase # VAI SER SEMPRE FALSE PORQUE ESTOU VENDO SE A LETRA CONTÉM A FRASE
             if frase.include? alphabet[i]
                 p "A letra #{alphabet[i]} está na frase"
+                alphabet.delete_at(i) # deleta a letra que está na frase
+                p "O alfabeto é"
+                p alphabet
             else
-                p "essa letra NÃO está na frase"
+                p "A letra #{alphabet[i]} NÃO está na frase"
+                p "O alfabeto é"
+                p alphabet
             end
         end
 end
