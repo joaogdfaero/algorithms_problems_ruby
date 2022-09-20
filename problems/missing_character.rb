@@ -38,9 +38,6 @@ def missing_character(frase)
             output.append(alphabet[i]) unless alphabet[i]==0
             p output
         end
-
-
-
         p "o resultado final é"
         return output
 end
