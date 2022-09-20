@@ -12,6 +12,7 @@
 def count(input)
     p "A frase é"
     p input
+    tamanho = input.length
 
     p "All upper case letters are"
     alphabet_u = ('A'..'Z').to_a # alphabeto
@@ -27,12 +28,14 @@ def count(input)
 
     p "All numbers are"
     numbers = (0..9).to_a
-    p numbers
     tamanho_n = numbers.length
+    numbers = (0..9).to_a.join(", ") # Transforma em array e separa eles por vírgula para poder fazer a comparação
+    p numbers
+    count_n = 0
 
     #p "All special characters are"
 
-    (0..tamanho_u-1).to_a.each do |i|
+    (0..tamanho-1).to_a.each do |i|
         if alphabet_u.include? input[i]
             count_u = count_u + 1
         end
@@ -41,7 +44,7 @@ def count(input)
     p "Upper Case Letters:"
     p count_u
 
-    (0..tamanho_l-1).to_a.each do |i|
+    (0..tamanho-1).to_a.each do |i|
         #if input.include? alphabet_l[i]
         if alphabet_l.include? input[i]
             count_l = count_l + 1
@@ -50,8 +53,16 @@ def count(input)
     p "Lower Case Letters:"
     p count_l
 
-        
+    (0..tamanho-1).to_a.each do |i|
+        #if input.include? numbers[i]
+        if numbers.include? input[i]
+            count_n= count_n + 1
+        end
+    end
+
+    p "Numbers:"
+    p count_n
 end
 
 input = "#GeeKs01fOr@gEEks07"
-p count(input)
+count(input)
