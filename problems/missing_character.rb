@@ -21,7 +21,7 @@ def missing_character(frase)
             #if alphabet[i].include? frase # VAI SER SEMPRE FALSE PORQUE ESTOU VENDO SE A LETRA CONTÉM A FRASE
             if frase.include? alphabet[i]
                 p "A letra #{alphabet[i]} está na frase"
-                alphabet.delete_at(i) # deleta a letra que está na frase
+                alphabet[i]=0 # anula a letra
                 p "O alfabeto é"
                 p alphabet
             else
@@ -30,6 +30,19 @@ def missing_character(frase)
                 p alphabet
             end
         end
+
+        tamanho = alphabet.length # novo tamanho do alphabeto
+        output = []
+
+        (0..tamanho-1).to_a.each do |i|
+            output.append(alphabet[i]) unless alphabet[i]==0
+            p output
+        end
+
+
+
+        p "o resultado final é"
+        return output
 end
 
 # alphabeto(x) contains in frase?

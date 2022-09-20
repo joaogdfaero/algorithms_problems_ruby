@@ -1,4 +1,6 @@
-my_string = "abcdefg"
-if my_string.include? "cde"
-   puts "String includes 'cde'"
+new_items = []
+items.each do |x|
+    x = transform(x)
+    new_items.append(x) unless x.nil?
 end
+items = new_items
