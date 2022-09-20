@@ -1,41 +1,22 @@
-# https://www.geeksforgeeks.org/bubble-sort/
-
+# Ordena os ítens usando Bubble sort
 def bubble_sort (lista)
-    p "A lista a ser ordenada é"
-    p lista
+    tamanho = lista.length
 
-    lista_ordenada = lista.sort
-    p "A lista ordenada é"
-    p lista_ordenada
 
-while lista != lista_ordenada do
-if lista[0]>lista[1]
-    p "O primeiro é maior"
-    first=lista[0]
-    second=lista[1]
-    lista[0]=lista[1]
-    lista[1]=first
-    p lista
-elsif lista[1]>lista[2]
-    first=lista[1]
-    second=lista[2]
-    lista[1]=lista[2]
-    lista[2]=first
-    p lista
+    (0..3).each do |j|
+        (0..j).each do |i|
+            p "O indice i é "
+            p i
+            if lista[i]>lista[i+1]
+               lista[i],lista[i+1] = lista[i+1], lista[i]
+               p "A lista é"
+               p lista
+            end
+        end
+    end
 
-elsif lista[2]>lista[3]
-    first=lista[2]
-    second=lista[3]
-    lista[2]=lista[3]
-    lista[3]=first
-    p lista
-end
+    return lista
 end
 
-
-
-end
-
-
-#lista = [5, 1, 4, 2, 8]
-p bubble_sort([5, 1, 4, 2, 8])
+lista = [10, 4, 3, 50, 23, 90]
+input = bubble_sort(lista)
