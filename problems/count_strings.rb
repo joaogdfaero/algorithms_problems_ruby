@@ -33,7 +33,6 @@ def count(input)
     p numbers
     count_n = 0
 
-    #p "All special characters are"
 
     (0..tamanho-1).to_a.each do |i|
         if alphabet_u.include? input[i]
