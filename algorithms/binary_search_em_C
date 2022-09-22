@@ -1,3 +1,4 @@
+ // Esse código está escrito em C e serviu como base
  binarySearch(arr, x, low, high)
         repeat till low = high
                mid = (low + high)/2
