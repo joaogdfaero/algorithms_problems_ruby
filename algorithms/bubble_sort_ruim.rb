@@ -1,6 +1,6 @@
 # https://www.geeksforgeeks.org/bubble-sort/
 
-# Versão ruim do bubble sort
+# Versão ruim do bubble sort, e que não funciona para arrays > 5
 
 def bubble_sort (lista)
     p "A lista a ser ordenada é"
