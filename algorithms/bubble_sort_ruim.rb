@@ -1,5 +1,7 @@
 # https://www.geeksforgeeks.org/bubble-sort/
 
+# Versão ruim do bubble sort
+
 def bubble_sort (lista)
     p "A lista a ser ordenada é"
     p lista
