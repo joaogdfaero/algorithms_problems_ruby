@@ -1,6 +1,6 @@
 # Reversal algorithm for right rotation of an array
 
-# Given an array, right rotate it by k elements. 
+# Given an array, right rotate it by k elements. asd ""
 
 # Input: arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 # k = 3
