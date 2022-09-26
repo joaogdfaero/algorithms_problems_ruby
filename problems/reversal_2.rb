@@ -15,11 +15,10 @@ def reversal(list,k)
 
     p "A list será girada em #{k} casas"
 
-    tamanho = list.length
-    (0..tamanho-1).each do |i|
-        list[i]=list[i+k]
-        p list
-    end
+    #list[0],list[1],list[2],list[3],list[4],list[5],list[6],list[7],list[8],list[9] = list[0+k],list[1+k],list[2+k],list[3+k],list[4+k],list[5+k],list[6+k],list[0],list[1],list[2]
+    list[0],list[1],list[2],list[3] = list[0+k],list[1+k],list[2+k],list[3+k] 
+    p "O resultado é"
+    p list
 end
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
