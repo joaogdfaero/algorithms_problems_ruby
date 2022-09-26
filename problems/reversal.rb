@@ -27,6 +27,13 @@ def reversal(list,k)
     list[6],list[8]=list[8],list[6]
     p list
     list[6],list[7]=list[7],list[6]
+
+    # finalizando
+    (0..2).each do |i|
+        list[i],list[i+6] = list[i+6],list[i]
+    end
+    p "A lista final é"
+    p list
 end
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
