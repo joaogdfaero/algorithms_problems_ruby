@@ -32,9 +32,13 @@ def reversal(list,k)
         list[i], list[length+i] = list[length+i], list[i]
     end
 
-
-
+    p "A lista aqui é"
+    p list
     
+    p "Removing zero's in the end of list"
+    list.pop(3)
+    p list
+
     p "O resultado é"
     p list
 end
@@ -43,4 +47,3 @@ list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 k = 3
 reversal(list,k)
 
-#Parei aqui
