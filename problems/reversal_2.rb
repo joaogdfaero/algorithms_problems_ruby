@@ -15,8 +15,26 @@ def reversal(list,k)
 
     p "A list será girada em #{k} casas"
 
-    #list[0],list[1],list[2],list[3],list[4],list[5],list[6],list[7],list[8],list[9] = list[0+k],list[1+k],list[2+k],list[3+k],list[4+k],list[5+k],list[6+k],list[0],list[1],list[2]
-    list[0],list[1],list[2],list[3] = list[0+k],list[1+k],list[2+k],list[3+k] 
+    length = list.length
+    p "O tamanho da list é #{length}"
+    
+    # Create a zeros array with length k
+    arr = Array.new(k, 0)
+
+
+    # Prepend that array to our list
+    (0..k-1).each do
+        list = list.prepend(0)
+    end
+    p "A list com prepend é #{list}"
+
+    (0..k-1).each do |i|
+        list[i], list[length+i] = list[length+i], list[i]
+    end
+
+
+
+    
     p "O resultado é"
     p list
 end
