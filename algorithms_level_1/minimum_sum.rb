@@ -14,28 +14,34 @@ def minimum_sum(a)
 
     b =[]
     
-    size = a.length
-    p size
+    
 
-    until size == 1 do
-        (0..a.length).each do |i|
-            if a[i]>a[i+1]
-                a.delete_at(i)
-                b.append(a[i+1])
+    while a.length != 1
+        p "a tem um tamanho #{a.length}"
+        #(0..a.length).each do |i| # NÃO PEGA SEMPRE O PRIMEIRO, POR ISSO NÃO FUNCIONA
+            if a[0]>a[1]
+                a.delete_at(0)
+                b.append(a[1])
                 p "b é:"
                 p b
                 p "a é"
                 p a
-            elsif a[i]<a[i+1]
-                a.delete_at(i+1)
-                b.append(a[i])
+            elsif a[0]<a[1]
+                a.delete_at(1)
+                b.append(a[0])
                 p "b é:"
                 p b
                 p "a é"
                 p a
             end
-        end
     end
+    
+    p "a final é"
+    p a
+    p "b final é"
+    p b
+
+    p "O resultado final é #{a[0]*b.length}"
 
 end
 
