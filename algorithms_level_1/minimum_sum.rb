@@ -14,11 +14,9 @@ def minimum_sum(a)
 
     b =[]
     
-    
-
     while a.length != 1
         p "a tem um tamanho #{a.length}"
-        #(0..a.length).each do |i| # NÃO PEGA SEMPRE O PRIMEIRO, POR ISSO NÃO FUNCIONA
+        #(0..a.length).each do |i| -> THIS IS MAKING THE LOOP TO RUN MORE TIMES THAN IT NEEDED, RESULTING ON ERROS
             if a[0]>a[1]
                 a.delete_at(0)
                 b.append(a[1])
