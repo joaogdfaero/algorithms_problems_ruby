@@ -6,7 +6,13 @@ def maximize_array(a,k)
     # 3 do that k times
     # 4 sum all numbers in the final array
 
-    p a.min
+    (0..k-1).each do |i|  # isn't working because the code isn't switching the number k times
+        p "o mínimo é #{a.min}"
+        if a[i] == a.min
+            a[i] = - a[i]
+            p "a agora é #{a}"
+        end
+    end
 
 end
 
