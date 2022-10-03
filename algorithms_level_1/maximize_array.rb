@@ -16,7 +16,7 @@ def maximize_array(a,k)
             count = count +1
             p "count é #{count}"
             p "k é #{k}"
-            p "a agora é #{a}"
+            p "a agora é #{a[i]}"
             if count == k
                 p "O K MÁXIMO FOI ALCANÇADO"
                 break # stops everthing when k is reached
