@@ -11,7 +11,7 @@ def maximize_array(a,k)
 
     (0..100).each do |i|  
         p "o mínimo é #{a.min}"
-        if a[i] == a.min # isn't working because the code isn't entering this loop when a[i] == 0
+        if a[i] == a.min # the code isn't entering this loop when a[i] == 0 because i is larger than 0 position in array
             a[i] = - a[i]
             count = count +1
             p "count é #{count}"
