@@ -7,9 +7,11 @@ def maximize_array(a,k)
     # 4 sum all numbers in the final array
     p "A lista é #{a}"
 
-    count = 0 # stops when count = k
+    tamanho = a.length
 
-    (0..100).each do |i|  
+    count = 0 # stops when count = k
+(1..tamanho-1).each do |j| # WE HAVE TO SEE WHAT IS THE EFFECT OF THE DOUBLE LOOP
+    (0..j).each do |i|  
         p "o mínimo é #{a.min}"
         if a[i] == a.min # the code isn't entering this loop when a[i] == 0 because i is larger than 0 position in array
             a[i] = - a[i]
@@ -17,12 +19,13 @@ def maximize_array(a,k)
             p "count é #{count}"
             p "k é #{k}"
             p "a agora é #{a[i]}"
-            if count == k
+            if count == k 
                 p "O K MÁXIMO FOI ALCANÇADO"
                 break # stops everthing when k is reached
             end
         end
     end
+end
 
 end
 
