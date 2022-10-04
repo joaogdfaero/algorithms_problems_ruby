@@ -50,6 +50,13 @@ def minimum_product(a)
         end
     end
 
+     # caso 3.1
+     if count_p == a.length
+        p "A soma é #{a.max}"
+        exit
+     end
+
+
     
 
     # caso 2
@@ -91,8 +98,7 @@ def minimum_product(a)
         end
     end
 
-    # caso 3.1
-
+   
 
 
 
@@ -111,5 +117,5 @@ def minimum_product(a)
 end
 
 
-a = [1, 1, 0, 4, 3]
+a = [1, 1, 19, 4, 3]
 minimum_product(a)
