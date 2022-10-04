@@ -82,6 +82,17 @@ def minimum_product(a)
     p prod
     end
 
+    # caso 3
+    if count_p > 1
+        if count_n == 0
+            if count_o !=0
+                p "o produto é 0"
+            end
+        end
+    end
+
+    # caso 3.1
+
 
 
 
@@ -100,5 +111,5 @@ def minimum_product(a)
 end
 
 
-a = [-1, -1, 2, 4, 3]
+a = [1, 1, 0, 4, 3]
 minimum_product(a)
