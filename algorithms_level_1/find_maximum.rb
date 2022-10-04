@@ -28,8 +28,7 @@ def find_maximum(a,b,c)
     if sum_a == sum_b && sum_b == sum_c
         p "A soma é #{sum_a}"
     else
-        
-        (0..2).each do |i|
+        (0..15).each do |j|
             # REFAZENDO AS SOMAS
             sum_a = 0
             (0..a.length-1).each do |i|
@@ -48,7 +47,11 @@ def find_maximum(a,b,c)
 
             sums = [sum_a,sum_b,sum_c]
             p "a soma máxima é #{sums.max}"
-            if sums[0]==sums.max
+
+            if sum_a == sum_b && sum_b == sum_c
+                p "A soma é #{sum_a} "
+                break
+            elsif sums[0]==sums.max
                 a.delete_at(0)
                 p "0"
                 p a
@@ -60,7 +63,14 @@ def find_maximum(a,b,c)
                 c.delete_at(0)
                 p "2"
                 p c
+            
+            
+            
             end
+
+
+
+            
         end
             
         
