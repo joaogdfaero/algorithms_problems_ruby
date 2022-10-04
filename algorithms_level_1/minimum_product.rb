@@ -52,11 +52,17 @@ def minimum_product(a)
 
     
 
-    # caso 3
-    if (count_n).remainder.(2) != 0
+    # caso 2
+    if (count_n).remainder(2) != 0
         if count_z == 0
-            
+            prod = 1
+            (0..a.length-1).each do |i|
+            prod=prod*a[i]
+
+            end
         end
+        p "o produto é"
+        p prod
     end
 
 
