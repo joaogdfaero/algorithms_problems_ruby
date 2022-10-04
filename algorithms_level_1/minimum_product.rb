@@ -65,6 +65,23 @@ def minimum_product(a)
         p prod
     end
 
+    # caso 1
+    if count_z == 0
+        if (count_n).remainder(2) == 0
+            (0..a.length-1).each do |i|
+                if a[i] == a.min
+                    a.delete_at(i)
+                end
+            end
+        end
+    prod = 1
+    (0..a.length-1).each do |i|
+        prod = prod*a[i]
+    end
+    p "O produto é"
+    p prod
+    end
+
 
 
 
@@ -83,5 +100,5 @@ def minimum_product(a)
 end
 
 
-a = [-1, -1, -2, 4, 3]
+a = [-1, -1, 2, 4, 3]
 minimum_product(a)
