@@ -30,6 +30,22 @@ def find_maximum(a,b,c)
     else
         
         (0..2).each do |i|
+            # REFAZENDO AS SOMAS
+            sum_a = 0
+            (0..a.length-1).each do |i|
+                sum_a = sum_a + a[i] 
+            end
+        
+            sum_b = 0
+            (0..b.length-1).each do |i|
+                sum_b = sum_b + b[i] 
+            end
+        
+            sum_c = 0
+            (0..c.length-1).each do |i|
+                sum_c = sum_c + c[i] 
+            end
+
             sums = [sum_a,sum_b,sum_c]
             p "a soma máxima é #{sums.max}"
             if sums[0]==sums.max
