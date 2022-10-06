@@ -42,7 +42,7 @@ def find_future(a,q)
             year_q = q[j][qarrays[j][1]+1..q[j].length-1].to_i
 
             year_diff.append(year_a-year_q)
-            p "Diferença entre o termo #{i} de a e #{j} de q é  #{year_a - year_q}"
+            
         end  
      end
      p year_diff
@@ -51,17 +51,43 @@ def find_future(a,q)
      month_diff = []
      (0..a.length-1).each do |i|
         (0..q.length-1).each do |j|
-            month_a = a[i][arrays[i][0]+1..arrays[i][1]-1]
+            month_a = a[i][arrays[i][0]+1..arrays[i][1]-1].to_i
+            month_q = q[j][qarrays[j][0]+1..qarrays[j][1]-1].to_i
+
+            month_diff.append(month_a-month_q)
+            #p "Diferença entre o termo #{i} de a e #{j} de q é  #{month_a - month_q}"
 
         end
      end
+     p month_diff
+
+     # Day difference
+     day_diff = []
+     (0..a.length-1).each do |i|
+        (0..q.length-1).each do |j|
+            day_a = a[i][0..arrays[i][0]-1].to_i
+            day_q = q[j][0..qarrays[j][0-1]].to_i
+
+            day_diff.append(day_a-day_q)
+            #p "Diferença entre o termo #{i} de a e #{j} de q é  #{day_a - day_q}"
+
+        end
+     end
+     p day_diff
 
 
+     (0..a.length*q.length-1).each do |i|
+        if year_diff[i] < 0
+            year_diff[i]=0
+        else
+            p "não está no passado"
+        end
+     end
 
+     p "O menor ano é #{year_diff.min}"
+     
+     
 
-
-
-    
 end
 
 a = ["22/4/1233", "1/3/633", "23/5/56645", "4/12/233"]
