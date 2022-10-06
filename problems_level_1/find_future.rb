@@ -74,6 +74,17 @@ def find_future(a,q)
         end
      end
      p day_diff
+
+
+     (0..a.length*q.length-1).each do |i|
+        if year_diff[i] < 0
+            year_diff[i]=0
+        else
+            p "não está no passado"
+        end
+     end
+
+     p "O menor ano é #{year_diff.min}"
      
      
 
