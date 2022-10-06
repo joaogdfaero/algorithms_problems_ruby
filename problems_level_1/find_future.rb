@@ -28,19 +28,35 @@ def find_future(a,q)
         end
      end
 
-     # year difference
-     year_a1 = a[0][arrays[0][1]+1..a[0].length-1].to_i
-     year_q1 = q[0][qarrays[0][1]+1..q[0].length-1].to_i
-     p year_a1 - year_q1
+     p "arrays"
+     p arrays
 
+     p "qrrays"
+     p qarrays
+
+    # Year difference
+    year_diff = [] # array that will contain the difference in years
      (0..a.length-1).each do |i|
         (0..q.length-1).each do |j|
             year_a = a[i][arrays[i][1]+1..a[i].length-1].to_i
             year_q = q[j][qarrays[j][1]+1..q[j].length-1].to_i
 
+            year_diff.append(year_a-year_q)
             p "Diferença entre o termo #{i} de a e #{j} de q é  #{year_a - year_q}"
         end  
      end
+     p year_diff
+
+     # Month difference
+     month_diff = []
+     (0..a.length-1).each do |i|
+        (0..q.length-1).each do |j|
+            month_a = a[i][arrays[i][0]+1..arrays[i][1]-1]
+
+        end
+     end
+
+
 
 
 
