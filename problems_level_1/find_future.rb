@@ -2,19 +2,24 @@
 
 
 def find_future(a,q)
-     year_a = a[0][5..9].to_i
-     year_q = q[0][5..9].to_i
-
-     p year_a - year_q
+    a1 = []
+    a2 = []
+    a3 = []
+    a4 = []
+    arrays = [a1 , a2 , a3 ,a4] # arrays que vão conter a posição de /
 
      (0..a.length-1).each do |i|
         (0..a[i].length-1).each do |j|
             if a[i][j] == "/"
                 p "Achou o / no item #{i} de a na posição #{j}"
+                arrays[i].append(j)
+                p arrays
             end
         end
         
      end
+
+     # Year difference
 
     
 end
