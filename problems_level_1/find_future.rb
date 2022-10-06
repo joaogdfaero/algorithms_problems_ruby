@@ -11,9 +11,7 @@ def find_future(a,q)
      (0..a.length-1).each do |i|
         (0..a[i].length-1).each do |j|
             if a[i][j] == "/"
-                p "Achou o / no item #{i} de a na posição #{j}"
                 arrays[i].append(j)
-                p arrays
             end
         end  
      end
@@ -25,9 +23,7 @@ def find_future(a,q)
      (0..q.length-1).each do |i|
         (0..q[i].length).each do |j|
             if q[i][j] == "/"
-                p "Achou o / no item #{i} de q na posição #{j}"
                 qarrays[i].append(j)
-                p qarrays
             end
         end
      end
@@ -36,6 +32,15 @@ def find_future(a,q)
      year_a1 = a[0][arrays[0][1]+1..a[0].length-1].to_i
      year_q1 = q[0][qarrays[0][1]+1..q[0].length-1].to_i
      p year_a1 - year_q1
+
+     (0..a.length-1).each do |i|
+        (0..q.length-1).each do |j|
+            year_a = a[i][arrays[i][1]+1..a[i].length-1].to_i
+            year_q = q[j][qarrays[j][1]+1..q[j].length-1].to_i
+
+            p "Diferença entre o termo #{i} de a e #{j} de q é  #{year_a - year_q}"
+        end  
+     end
 
 
 
