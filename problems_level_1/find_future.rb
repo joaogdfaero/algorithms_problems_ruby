@@ -85,10 +85,17 @@ def find_future(a,q)
      end
 
      p year_diff
-     p "O menor ano é #{year_diff.min} na posição #{year_diff.index(year_diff.min)}"
+     p "A menor diferença de ano é #{year_diff.min} na posição #{year_diff.index(year_diff.min)}"
 
      # find closest month
+     (0..a.length*q.length-1).each do |i|
+        if month_diff[i] < 0
+            month_diff[i]= 1/0.0  # Faz os valores negativos virarem infinito
+        end
+     end
 
+     p month_diff
+     p "A menor diferença de mês é #{month_diff.min} na posição #{month_diff.index(month_diff.min)}"
 
      # find closest day
      
