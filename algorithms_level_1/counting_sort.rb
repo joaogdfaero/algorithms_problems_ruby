@@ -7,35 +7,11 @@
 #You count how many of each digit there is, and then you determine each digit's starting position by counting how many cells are taken up by the digits before it!
 
 def counting_sort(lista)
-    p "A lista a ser ordenada é"
-    p lista
+    zero = Array.new(lista.length,0)
+    p zero
 
-    # criando um index
-    index = (0..lista.length()).to_a
-    p index
-
-    # tamanho da lista
-    tamanho = lista.length()
-    p "O tamanho da lista é"
-    p tamanho
-
-     indice =0
-     contagem=Array.new(tamanho, 0)
-    p "______________"
-    # untill indice = tamanho + 1
-    #while indice != tamanho 
-    (0..tamanho-1).to_a.each do |indice| # NÃO FUNCIONA PORQUE ELE CONTA CADA NÚMERO SÓ 1X
-        if index[indice] in lista
-            p "o indice é"
-            p indice
-            p "a contagem é"
-            p contagem
-            p "temos o mesmo elemento, logo a contagem virou"
-            contagem[indice] = contagem[indice]+1
-            p contagem
-        else
-            p "não temos o elemento"
-        end
+    (0..lista.length-1).each do |i|
+        if lista[i] ==
     end
 end
 # 1 - Conta as ocorrências de cada número do array
