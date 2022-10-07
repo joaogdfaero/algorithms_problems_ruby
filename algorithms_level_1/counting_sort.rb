@@ -7,12 +7,20 @@
 #You count how many of each digit there is, and then you determine each digit's starting position by counting how many cells are taken up by the digits before it!
 
 def counting_sort(lista)
-    zero = Array.new(lista.length,0)
-    p zero
 
-    (0..lista.length-1).each do |i|
-        if lista[i] ==
+    # count ocurrence of each number in list
+    count = Array.new(9,0)
+    p count
+
+    (0..9).each do |j|
+        (0..lista.length-1).each do |i|
+            if lista[i] == j
+                count[j] = count[j] + 1
+            end
     end
+    end
+
+
 end
 # 1 - Conta as ocorrências de cada número do array
 # 2 - Nesse novo array das somas das ocorrências, mantém o primeiro termo
