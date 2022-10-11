@@ -1,5 +1,7 @@
 # https://www.geeksforgeeks.org/queries-to-find-the-future-closest-date/
 
+# works for q.length = 1
+
 
 def find_future(a,q)
     a1 = []
@@ -76,21 +78,47 @@ def find_future(a,q)
      p day_diff
 
 
+
+     # find closest year
      (0..a.length*q.length-1).each do |i|
         if year_diff[i] < 0
-            year_diff[i]=0
-        else
-            p "não está no passado"
+            year_diff[i]= 1/0.0  # Faz os valores negativos virarem infinito
         end
      end
 
-     p "O menor ano é #{year_diff.min}"
-     
+     p year_diff
+     p "A menor diferença de ano é #{year_diff.min} na posição #{year_diff.index(year_diff.min)}"
+
+     # find closest month
+     (0..a.length*q.length-1).each do |i|
+        if month_diff[i] < 0
+            month_diff[i]= 1/0.0  # Faz os valores negativos virarem infinito
+        end
+     end
+
+     p month_diff
+     p "A menor diferença de mês é #{month_diff.min} na posição #{month_diff.index(month_diff.min)}"
+
+
+     # find closest day
+     (0..a.length*q.length-1).each do |i|
+        if day_diff[i] < 0
+            day_diff[i]= 1/0.0  # Faz os valores negativos virarem infinito
+        end
+     end
+
+     p day_diff
+     p "A menor diferença de dia é #{day_diff.min} na posição #{day_diff.index(day_diff.min)}"
+    
+
+     # choosing the closest date of first date
+     p "A data mais próxima é #{a[year_diff.index(year_diff.min)]}"
+
      
 
 end
 
 a = ["22/4/1233", "1/3/633", "23/5/56645", "4/12/233"]
-q = ["23/3/4345", "12/3/2"]
+q = ["23/3/4345"]
 
 find_future(a,q)
