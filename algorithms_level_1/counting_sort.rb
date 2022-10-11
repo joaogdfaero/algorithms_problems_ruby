@@ -39,8 +39,18 @@ def counting_sort(lista)
     # print elements in order
     result = Array.new(lista.length,0)
 
-    result[count[lista[0]]] = lista [0]
-    
+    (0..lista.length-1).each do |i|
+        result[count[lista[i]]] = lista [i]
+    end
+
+    (0..lista.length-1).each do |i|
+        if result[i] == 0
+            result.delete_at(i)
+        end
+    end
+
+
+
     p result
 
 
