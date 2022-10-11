@@ -9,7 +9,7 @@
 def counting_sort(lista)
 
     # count ocurrence of each number in list
-    count = Array.new(10,0)
+    count = Array.new(10,0) # count array
     p count
 
     (0..9).each do |j|
@@ -21,10 +21,16 @@ def counting_sort(lista)
     end
     p count
 
-    # count right with left
-    count_right = Array.new(10,0)
+    # count array with sum of previous elements
+    (1..count.length-1).each do |i|
+        count[i] = count [i] + count[i-1]
+    end
 
-    
+    p count
+
+
+
+
 
 
 

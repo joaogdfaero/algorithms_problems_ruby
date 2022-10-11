@@ -16,12 +16,13 @@ def calculate_age(birth,present)
     month_birt = birth[3..4].to_i
     month_present = present[3..4].to_i
 
-    # Isolating months
+    # Isolating days
     days_birt = birth[0..1].to_i
     days_present = present[0..1].to_i
 
     p "Present Age = Year: #{year_present-year_birth}, Months: #{month_present-month_birt} Days: #{days_present- days_birt}"
     
+
 end
 
 birth = "07/09/1996"
