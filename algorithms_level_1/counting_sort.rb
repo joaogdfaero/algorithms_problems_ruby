@@ -7,10 +7,15 @@
 #You count how many of each digit there is, and then you determine each digit's starting position by counting how many cells are taken up by the digits before it!
 
 def counting_sort(lista)
+    p lista
 
     # count ocurrence of each number in list
     count = Array.new(10,0) # count array
-    p count
+
+    index = Array(0..9)
+    p index
+
+    p
 
     (0..9).each do |j|
         (0..lista.length-1).each do |i|
@@ -19,20 +24,25 @@ def counting_sort(lista)
             end
     end
     end
-    p count
 
     # count array with sum of previous elements
     (1..count.length-1).each do |i|
         count[i] = count [i] + count[i-1]
     end
 
-    p count
-
     # rotate the array clockwise for one time
     count = count.rotate(-1)
     count[0] = 0
 
     p count
+
+    # print elements in order
+    result = Array.new(lista.length,0)
+
+    result[count[lista[0]]] = lista [0]
+    
+    p result
+
 
 
 
