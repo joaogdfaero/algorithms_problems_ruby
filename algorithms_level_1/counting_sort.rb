@@ -28,6 +28,12 @@ def counting_sort(lista)
 
     p count
 
+    # rotate the array clockwise for one time
+    count = count.rotate(-1)
+    count[0] = 0
+
+    p count
+
 
 
 
