@@ -3,14 +3,18 @@
 
 def jump_search(array,step, x)
   m = step
-  (0..(array.length)/m).each do |i|
+  (0..(array.length - 1)/m).each do |i|
     if array[m*i] == x
-      p "achou o x"
-    else
-      p "não achou"
+      p "O termo #{x} está na posição #{m*i}"
+    elsif array[m*i] > x
+      (m*(i-1)..m*i).each do |i|
+        if array[i] == x
+          p "O termo #{x} está na posição #{i}"
+        end
+      end
     end
   end
-  p array
+
 
 
 end
