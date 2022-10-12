@@ -5,12 +5,14 @@ def common_characters(input)
   included = Array.new(alphabet.length,0) # array that will be populated it included letters
   (0..alphabet.length-1).each do |i|
     (0..input.length-1).each do |j|
-      input[j].include?(alphabet[i])
+      if input[j].include?(alphabet[i])
+        included[i]=alphabet[i]
+      end
     end
 
   end
 
-  input[2].include?(alphabet[0])
+  p included
 
 end
 
