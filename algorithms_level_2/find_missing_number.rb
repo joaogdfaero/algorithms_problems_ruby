@@ -1,25 +1,28 @@
-# https://www.geeksforgeeks.org/find-the-missing-number/
+# https://www.geeksforgeeks.org/find-the-missing-number
+
 
 def find_missing_number(array)
-  numbers = Array(1..array[array.length-1]) # create array with all elements
+  numbers = (1..array.max).to_a
 
-  (0..array.length-1).each do |i|
+  presence = Array.new(numbers.length,0)
+
+  (0..numbers.length).each do |i|
     (0..array.length).each do |j|
-      if array[i] == j
-        p "o número é é #{array[i]}"
-        p "j e #{j}"
-        p "é ingual" # cada um tem que ter pelo menos 1 é ingual
+      if array[j] == numbers[i]
+        presence[i]=1
       else
-        p "o número é #{array[i]}"
-        p "j e #{j}"
-        p "não é ingual"
       end
     end
   end
 
-
+  (0..presence.length-1).each do |i|
+    if presence[i] == 0
+      p "The missing number between #{array[0]} and #{array[array.length-1]} is #{i+1}"
+    end
+  end
 
 end
 
-array = [1, 2, 4, 6, 3, 7, 8]
+
+array = [1,2,3,4,6,3,7,8]
 find_missing_number(array)
