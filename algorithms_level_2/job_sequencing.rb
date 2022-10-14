@@ -12,8 +12,10 @@ def job_sequencing(input)
 
   # GET THE DEADLINES IN A ARRAY
   deadlines = []
+  deadlines_constant = [] # WILL BE USED AS CONDIITON FOR THE LOOP ON NEXT SECTION TO STOP
   (0..input.length-1).each do |i|
     deadlines.append(input[i][1])
+    deadlines_constant.append(input[i][1])
   end
 
   # GET THE PROFITS IN A ARRAY
@@ -26,7 +28,7 @@ def job_sequencing(input)
   sequence = [] # final sequence that will be displayed to the user
   count = 0 # how many times works was done
 
-  until count == deadlines.max do
+  until count == deadlines_constant.max do
     p "O maior lucro é o #{profits.max} do job #{jobs[profits.index(profits.max)]}"
 
     p "A menor deadline é a #{deadlines.min} do job #{jobs[deadlines.index(deadlines.min)]}"
@@ -40,6 +42,14 @@ def job_sequencing(input)
       jobs.delete_at(profits.index(profits.max))
       deadlines.delete_at(deadlines.index(deadlines.min))
       profits.delete_at(profits.index(profits.max))
+    else
+      sequence.append(jobs[deadlines.index(deadlines.min)])
+      count = count + 1
+      jobs.delete_at(deadlines.index(deadlines.min))
+      deadlines.delete_at(deadlines.index(deadlines.min))
+      profits.delete_at(deadlines.index(deadlines.min))
+
+
 
     end
 
@@ -48,7 +58,7 @@ def job_sequencing(input)
     # SE FOREM O MESMO JOB, FAZ ESSE JOB
     # SE FOREM JOBS DIFERENTES, IGNORA ESSE COM A DEADLINE MAIOR E FAZ O PRÓXIMO COM DEADLINE MENOR E MAIOR LUCRO
 
-    p "A sequência ideal é #{sequence}"
+    puts "A sequência ideal é #{sequence}"
     p count
 
   end
@@ -58,5 +68,5 @@ end
 
 
 # JOB, DEADLINE, PROFIT
-input = [["a",4,5],["b",1,40],["c",2,30],["d",3,25]]
+input = [["a",4,20],["b",1,40],["c",1,10],["d",1,30]]
 job_sequencing(input)
