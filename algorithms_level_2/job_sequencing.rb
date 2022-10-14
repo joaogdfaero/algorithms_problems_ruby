@@ -37,6 +37,10 @@ def job_sequencing(input)
     if maior_lucro == menor_deadline
       sequence.append(jobs[profits.index(profits.max)])
       count = count + 1
+      jobs.delete_at(profits.index(profits.max))
+      deadlines.delete_at(deadlines.index(deadlines.min))
+      profits.delete_at(profits.index(profits.max))
+
     end
 
     # PEGA O MAIOR LUCRO
@@ -45,6 +49,7 @@ def job_sequencing(input)
     # SE FOREM JOBS DIFERENTES, IGNORA ESSE COM A DEADLINE MAIOR E FAZ O PRÓXIMO COM DEADLINE MENOR E MAIOR LUCRO
 
     p "A sequência ideal é #{sequence}"
+    p count
 
   end
 
@@ -53,5 +58,5 @@ end
 
 
 # JOB, DEADLINE, PROFIT
-input = [["a",4,20],["b",1,40],["c",1,10],["d",1,30]]
+input = [["a",4,5],["b",1,40],["c",2,30],["d",3,25]]
 job_sequencing(input)
