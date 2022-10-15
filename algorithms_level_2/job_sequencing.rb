@@ -1,9 +1,13 @@
 # https://www.geeksforgeeks.org/job-sequencing-problem/
 
+#Lógica:
+# PEGA O MAIOR LUCRO
+# PEGA A MENOR DEADLINE
+# SE FOREM O MESMO JOB, FAZ ESSE JOB
+# SE FOREM JOBS DIFERENTES, IGNORA ESSE COM A DEADLINE MAIOR E FAZ O COM DEADLINE MENOR
+
 def job_sequencing(input)
   # LÓGICA PEGA SEMPRE O QUE DÁ MAIS LUCRO E TEM A MENOR DEADLINE
-
-
   # GET THE JOBS IN A ARRAY
   jobs = []
   (0..input.length-1).each do |i|
@@ -33,6 +37,30 @@ def job_sequencing(input)
 
     p "A menor deadline é a #{deadlines.min} do job #{jobs[deadlines.index(deadlines.min)]}"
 
+    deleted = 0
+    (0..deadlines.length-1).each do |i| # ERRO POIS QUANDO i = 2, i = 2 já não existe mais porque foi deletado
+      if deadlines[i] <= count
+        # jobs.delete_at(i)
+        # deadlines.delete_at(i)
+        # profits.delete_at(i)
+        jobs[i] = "xx"
+        deadlines[i] = "xx"
+        profits[i] = "xx"
+      end
+    end
+
+    (0..jobs.length-1).each do |i|
+      if jobs[i] == "xx"
+        jobs.delete_at(i)
+      end
+      if deadlines[i] == "xx"
+        deadlines.delete_at(i)
+      end
+      if deadlines[i] == "xx"
+        deadlines.delete_at(i)
+      end
+    end
+
     maior_lucro = jobs[profits.index(profits.max)]
     menor_deadline = jobs[deadlines.index(deadlines.min)]
 
@@ -53,10 +81,6 @@ def job_sequencing(input)
 
     end
 
-    # PEGA O MAIOR LUCRO
-    # PEGA A MENOR DEADLINE
-    # SE FOREM O MESMO JOB, FAZ ESSE JOB
-    # SE FOREM JOBS DIFERENTES, IGNORA ESSE COM A DEADLINE MAIOR E FAZ O PRÓXIMO COM DEADLINE MENOR E MAIOR LUCRO
 
     puts "A sequência ideal é #{sequence}"
     p count
