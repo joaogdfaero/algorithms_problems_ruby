@@ -40,26 +40,26 @@ def job_sequencing(input)
     deleted = 0
     (0..deadlines.length-1).each do |i| # ERRO POIS QUANDO i = 2, i = 2 já não existe mais porque foi deletado
       if deadlines[i] <= count
-        # jobs.delete_at(i)
-        # deadlines.delete_at(i)
-        # profits.delete_at(i)
-        jobs[i] = "xx"
-        deadlines[i] = "xx"
-        profits[i] = "xx"
+        jobs.delete_at(i)
+        deadlines.delete_at(i)
+        profits.delete_at(i)
+        # jobs[i] = "xx"
+        # deadlines[i] = -66
+        # profits[i] = -66
       end
     end
 
-    (0..jobs.length-1).each do |i|
-      if jobs[i] == "xx"
-        jobs.delete_at(i)
-      end
-      if deadlines[i] == "xx"
-        deadlines.delete_at(i)
-      end
-      if deadlines[i] == "xx"
-        deadlines.delete_at(i)
-      end
-    end
+    # (0..jobs.length-1).each do |i|
+    #   if jobs[i] == "xx"
+    #     jobs.delete_at(i)
+    #   end
+    #   if deadlines[i] == -66
+    #     deadlines.delete_at(i)
+    #   end
+    #   if deadlines[i] == -66
+    #     deadlines.delete_at(i)
+    #   end
+    # end
 
     maior_lucro = jobs[profits.index(profits.max)]
     menor_deadline = jobs[deadlines.index(deadlines.min)]
