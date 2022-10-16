@@ -1,5 +1,5 @@
 # Algorithms and Problems in Ruby
-This repository contains algorithms and problems solved by me using Ruby :ruby:
+This repository contains algorithms and problems solved by me using Ruby.
 
 Each file contains a description of the algorithms/problem and it's solution. Algorithms and problems are divided by their level of difficulty (level 1, 2 and etc)
 
