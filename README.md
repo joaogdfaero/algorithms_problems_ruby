@@ -18,13 +18,10 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Find Maximum, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/find_maximum.rb)
 
 **Problems**
-String
 - Missing Character, (basic)
 - Count, (easy)
-Array
 - Find Three, (easy)
 - Reversal, (easy)
-Date
 - Find Future, (easy)
 - Calculate Age, (easy)
 
