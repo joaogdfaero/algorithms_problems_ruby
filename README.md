@@ -4,7 +4,7 @@ This repository contains algorithms and problems solved by me using Ruby :ruby:
 Each file contains a description of the algorithms/problem and it's solution. Algorithms and problems are divided by their level of difficulty (level 1, 2 and etc)
 
 **Searching Algorithms**
-- Linear Search (basic)
+- [Linear Search (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/linear_search.rb)
 - Binary Search (easy)
 
 **Sorting Algorithms**
