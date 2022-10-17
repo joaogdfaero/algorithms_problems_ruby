@@ -7,7 +7,6 @@
 # SE FOREM JOBS DIFERENTES, IGNORA ESSE COM A DEADLINE MAIOR E FAZ O COM DEADLINE MENOR
 
 def job_sequencing(input)
-  # LÓGICA PEGA SEMPRE O QUE DÁ MAIS LUCRO E TEM A MENOR DEADLINE
   # GET THE JOBS IN A ARRAY
   jobs = []
   (0..input.length-1).each do |i|
@@ -30,36 +29,24 @@ def job_sequencing(input)
 
 
   sequence = [] # final sequence that will be displayed to the user
-  count = 0 # how many times works was done
+  count = 0 # how many times work was done
 
-  until count == deadlines_constant.max do
-    p "O maior lucro é o #{profits.max} do job #{jobs[profits.index(profits.max)]}"
-
-    p "A menor deadline é a #{deadlines.min} do job #{jobs[deadlines.index(deadlines.min)]}"
-
+  # until count == deadlines_constant.max do -> SUBSTITUI POR ATÉ NÃO TER MAIS NENHUM JOB
+  until jobs == [] do
     deleted = 0
-    (0..deadlines.length-1).each do |i| # ERRO POIS QUANDO i = 2, i = 2 já não existe mais porque foi deletado
-      if deadlines[i] <= count
-        jobs.delete_at(i)
-        deadlines.delete_at(i)
-        profits.delete_at(i)
-        # jobs[i] = "xx"
-        # deadlines[i] = -66
-        # profits[i] = -66
+    # DELETE A JOB IF IT'S DEADLINE WAS ALREADY REACHED
+    (0..deadlines.length-1).each do |i|
+      if deadlines[i-deleted] <= count
+        jobs.delete_at(i-deleted)
+        deadlines.delete_at(i-deleted)
+        profits.delete_at(i-deleted)
+        deleted = deleted + 1
       end
     end
 
-    # (0..jobs.length-1).each do |i|
-    #   if jobs[i] == "xx"
-    #     jobs.delete_at(i)
-    #   end
-    #   if deadlines[i] == -66
-    #     deadlines.delete_at(i)
-    #   end
-    #   if deadlines[i] == -66
-    #     deadlines.delete_at(i)
-    #   end
-    # end
+    p "O maior lucro é o #{profits.max} do job #{jobs[profits.index(profits.max)]}"
+
+    p "A menor deadline é a #{deadlines.min} do job #{jobs[deadlines.index(deadlines.min)]}"
 
     maior_lucro = jobs[profits.index(profits.max)]
     menor_deadline = jobs[deadlines.index(deadlines.min)]
