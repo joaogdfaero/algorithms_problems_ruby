@@ -31,14 +31,14 @@ def job_sequencing(input)
   sequence = [] # final sequence that will be displayed to the user
   count = 0 # how many times works was done
 
-  until count == deadlines_constant.max do
+  # until count == deadlines_constant.max do -> SUBSTITUI POR ATÉ NÃO TER MAIS NENHUM JOB
     p "O maior lucro é o #{profits.max} do job #{jobs[profits.index(profits.max)]}"
 
     p "A menor deadline é a #{deadlines.min} do job #{jobs[deadlines.index(deadlines.min)]}"
 
     # DELETE A JOB IF IT'S DEADLINE WAS ALREADY REACHED
     (0..deadlines.length-1).each do |i|
-      if deadlines[i] <= count
+      if deadlines[i] < count
         jobs.delete_at(i)
         deadlines.delete_at(i)
         profits.delete_at(i)
@@ -46,17 +46,7 @@ def job_sequencing(input)
       end
     end
 
-    # (0..jobs.length-1).each do |i|
-    #   if jobs[i] == "xx"
-    #     jobs.delete_at(i)
-    #   end
-    #   if deadlines[i] == -66
-    #     deadlines.delete_at(i)
-    #   end
-    #   if deadlines[i] == -66
-    #     deadlines.delete_at(i)
-    #   end
-    # end
+
 
     maior_lucro = jobs[profits.index(profits.max)]
     menor_deadline = jobs[deadlines.index(deadlines.min)]
