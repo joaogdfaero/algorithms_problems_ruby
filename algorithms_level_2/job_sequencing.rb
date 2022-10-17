@@ -32,14 +32,15 @@ def job_sequencing(input)
   count = 0 # how many times work was done
 
   # until count == deadlines_constant.max do -> SUBSTITUI POR ATÉ NÃO TER MAIS NENHUM JOB
-  until jobs == nil do
+  until jobs == [] do
+    deleted = 0
     # DELETE A JOB IF IT'S DEADLINE WAS ALREADY REACHED
     (0..deadlines.length-1).each do |i|
-      if deadlines[i] < count
-        jobs.delete_at(i)
-        deadlines.delete_at(i)
-        profits.delete_at(i)
-
+      if deadlines[i-deleted] <= count
+        jobs.delete_at(i-deleted)
+        deadlines.delete_at(i-deleted)
+        profits.delete_at(i-deleted)
+        deleted = deleted + 1
       end
     end
 
