@@ -12,11 +12,7 @@ def linear_search(x)
     
     (0..tamanho-1).to_a.each  do |indice|
         if lista[indice]==x
-            p "a posição do elemento é"
-            return indice
-        # else
-        #     p "o elemento não está na lista"
-        #     return false
+            # return indice -> NÃO PRECISA DESSA LINHA POR CAUSA DO DEBUG
         end
     end
 end
