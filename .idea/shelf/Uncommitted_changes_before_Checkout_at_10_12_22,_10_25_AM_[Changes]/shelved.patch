@@ -1,0 +1,13 @@
+Index: algorithms_level_2/find_missing_number.rb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/algorithms_level_2/find_missing_number.rb b/algorithms_level_2/find_missing_number.rb
+new file mode 100644
+--- /dev/null	(date 1665581109261)
++++ b/algorithms_level_2/find_missing_number.rb	(date 1665581109261)
+@@ -0,0 +1,2 @@
++# https://www.geeksforgeeks.org/find-the-missing-number/
++#
+\ No newline at end of file
