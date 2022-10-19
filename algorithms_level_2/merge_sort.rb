@@ -5,11 +5,14 @@
 # 1. DIVIDE THE ARRAY IN HALF UNTIL WE GET ATOMIC ELEMENTS
 # 2. COMPARE EACH ATOMIC ELEMENT (FROM LEFT TO RIGHT) AND START MERGING ARRAYS
 # 3. DO STEP 2 UNTIL YOU GET THE FULL COMPLETED SORTED ARRAY
+# (watch youtube video for a better understanding)
 
 def merge_sort(input)
   first_index = 0
   last_index = input.length-1
   mid_index = (first_index + last_index -1)/2
+
+
 
 
 
