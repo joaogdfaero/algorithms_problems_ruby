@@ -13,6 +13,28 @@ def merge_sort(input)
   mid_index = (first_index + last_index -1)/2
 
 
+  left_array = []
+  right_array = []
+
+  (0..input.length-1).each do |i|
+    if i < mid_index
+      left_array[i]=input[i]
+    else
+      right_array[i-left_array.length]=input[i]
+    end
+  end
+
+  p left_array
+  p right_array
+
+
+
+
+
+
+
+
+
 
 
 
