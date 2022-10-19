@@ -1,21 +1,62 @@
 # https://www.geeksforgeeks.org/merge-sort/
 # https://www.youtube.com/watch?v=4VqmGXwpLqc&ab_channel=MichaelSambol
 
-# STEPS:
-# 1. DIVIDE THE ARRAY IN HALF UNTIL WE GET ATOMIC ELEMENTS
-# 2. COMPARE EACH ATOMIC ELEMENT (FROM LEFT TO RIGHT) AND START MERGING ARRAYS
-# 3. DO STEP 2 UNTIL YOU GET THE FULL COMPLETED SORTED ARRAY
+# GITHUB SOLUTION https://gist.github.com/bih/9726300
 
-def merge_sort(input)
-  first_index = 0
-  last_index = input.length-1
-  mid_index = (first_index + last_index -1)/2
+class MergeSortAlgorithm
+  # Break's the array down into two numbers (number A and number B) and sorts them.
+  def sort(numbers)
+    if numbers.size <= 1 # IF ARRAY HAS ONLY 1 NUMBER, IT RETURNS THAT NUMBER
+      return numbers
+    end
 
+    array_size   = numbers.size
+    half_of_size = (array_size / 2).round
 
+    left_array  = numbers.take(half_of_size) # TAKES LEFT PART OF ARRAY
+    right_array = numbers.drop(half_of_size) # TAKES RIGHT PART OF ARRAY
 
+    sorted_left_array = sort(left_array)  #SORTS RIGHT PART OF ARRAY ?
+    sorted_right_array = sort(right_array)
 
+    merge(sorted_left_array, sorted_right_array)
+  end
 
+  # This then creates a new array, loops through the left/right arrays and places the lowest number into the array.
+  def merge(left_array, right_array)
+    if right_array.empty?
+      return left_array # We have nothing to compare. Left wins.
+    end
+
+    if left_array.empty?
+      return right_array # We have nothing to compare. Right wins.
+    end
+
+    smallest_number = if left_array.first <= right_array.first
+                        left_array.shift
+                      else
+                        right_array.shift
+                      end
+
+    # We keep doing it until the left or right array is empty.
+    recursive = merge(left_array, right_array)
+
+    # Okay, either left or right array are empty at this point. So we have a result.
+    [smallest_number].concat(recursive)
+  end
 end
 
-input = [38, 27, 43, 3, 9, 82, 10]
-merge_sort(input)
+# Let's give this a spin?
+merge_sort = MergeSortAlgorithm.new
+puts merge_sort.sort([4, 92, 1, 39, 19, 93, 49, 10].shuffle) # => [1, 4, 10, 19, 39, 49, 92, 93]
+
+# How it works
+# 1. Let's say the input is [4, 92, 1, 39, 19, 93, 49, 10]
+# 2. Break them down in halfs. So we now have [4, 92, 1, 39] and [19, 93, 49, 10]
+# 3. Break them again in halfs. Let's start with the first. So now we have [4, 92] and [1, 39]
+# 4. Break until there's only one item in each. So now we have [4] and [92]
+# 5. Check which one is lower. So in this case, we know 4 is lower than 92. Let's rearrange it if necessary.
+# 6. Now we have [4, 92] and we do the same for [1, 39]
+# 7. We now create a new array. []
+# 8. We check the first element on the left array versus the first element on the right array (i.e. 4 >= 9) and then add them to the new array.
+# 9. Keep doing that until it's done.
