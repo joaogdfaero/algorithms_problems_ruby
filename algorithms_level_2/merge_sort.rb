@@ -4,51 +4,53 @@
 # GITHUB SOLUTION https://gist.github.com/bih/9726300
 
 class MergeSortAlgorithm
-  # Break's the array down into two numbers (number A and number B) and sorts them.
-  def sort(numbers)
-    if numbers.size <= 1 # IF ARRAY HAS ONLY 1 NUMBER, IT RETURNS THAT NUMBER
+  def sort(numbers)  # Break's the array down into two numbers (number A and number B) and sorts them.
+    if numbers.size <= 1
       return numbers
     end
 
-    array_size   = numbers.size
-    half_of_size = (array_size / 2).round
+    array_size = numbers.size
+    half_of_size = (array_size/2).round
 
-    left_array  = numbers.take(half_of_size) # TAKES LEFT PART OF ARRAY
-    right_array = numbers.drop(half_of_size) # TAKES RIGHT PART OF ARRAY
+    left_array = numbers.take(half_of_size)
+    right_array = numbers.drop(half_of_size)
 
-    sorted_left_array = sort(left_array)  #SORTS RIGHT PART OF ARRAY ?
+    sorted_left_array = sort(left_array)
     sorted_right_array = sort(right_array)
 
-    merge(sorted_left_array, sorted_right_array)
+    merge(sorted_left_array,sorted_right_array)
   end
 
-  # This then creates a new array, loops through the left/right arrays and places the lowest number into the array.
   def merge(left_array, right_array)
     if right_array.empty?
       return left_array # We have nothing to compare. Left wins.
     end
 
     if left_array.empty?
-      return right_array # We have nothing to compare. Right wins.
+      return right_array
     end
 
     smallest_number = if left_array.first <= right_array.first
-                        left_array.shift
+                        left_array.shift # removes the element from the array and returns it
                       else
-                        right_array.shift
+                        right_array.shift # removes the element from the array and returns it
                       end
-
     # We keep doing it until the left or right array is empty.
-    recursive = merge(left_array, right_array)
+    recursive = merge(left_array,right_array) # recursion keeps iterating function untill either left or right array are empty https://www.rubyguides.com/2015/08/ruby-recursion-and-memoization/#:~:text=What%20is%20recursion%20in%20Ruby,work%20left%20to%20be%20done.
 
     # Okay, either left or right array are empty at this point. So we have a result.
-    [smallest_number].concat(recursive)
+    [smallest_number].concat(recursive) # concatenate smallest_number with recursive
+
+
   end
+
+
+
 end
 
-# Let's give this a spin?
 merge_sort = MergeSortAlgorithm.new
-puts merge_sort.sort([4, 92, 1, 39, 19, 93, 49, 10].shuffle) # => [1, 4, 10, 19, 39, 49, 92, 93]
+puts merge_sort.sort([4, 92, 1, 39, 19, 93, 49, 10].shuffle)
+
 
 # How it works
 # 1. Let's say the input is [4, 92, 1, 39, 19, 93, 49, 10]
