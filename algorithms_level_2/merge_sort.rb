@@ -36,10 +36,10 @@ class MergeSortAlgorithm
                         right_array.shift # removes the element from the array and returns it
                       end
     # We keep doing it until the left or right array is empty.
-    recursive = merge(left_array,right_array)
+    recursive = merge(left_array,right_array) # recursion keeps iterating function untill either left or right array are empty https://www.rubyguides.com/2015/08/ruby-recursion-and-memoization/#:~:text=What%20is%20recursion%20in%20Ruby,work%20left%20to%20be%20done.
 
     # Okay, either left or right array are empty at this point. So we have a result.
-    [smallest_number].concat(recursive)
+    [smallest_number].concat(recursive) # concatenate smallest_number with recursive
 
 
   end
