@@ -31,9 +31,9 @@ class MergeSortAlgorithm
     end
 
     smallest_number = if left_array.first <= right_array.first
-                        left_array.shift
+                        left_array.shift # removes the element from the array and returns it
                       else
-                        right_array.shift
+                        right_array.shift # removes the element from the array and returns it
                       end
     # We keep doing it until the left or right array is empty.
     recursive = merge(left_array,right_array)
