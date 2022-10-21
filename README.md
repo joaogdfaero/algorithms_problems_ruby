@@ -20,7 +20,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 **Problems**
 - [Missing Character, (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/missing_character.rb)
 - [Count, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/count_strings.rb)
-- Find Three, (easy)
+- [Find Three, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/find_three.rb)
 - Reversal, (easy)
 - Find Future, (easy)
 - Calculate Age, (easy)
