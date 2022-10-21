@@ -18,7 +18,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Find Maximum, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/find_maximum.rb)
 
 **Problems**
-- Missing Character, (basic)
+- [Missing Character, (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/missing_character.rb)
 - Count, (easy)
 - Find Three, (easy)
 - Reversal, (easy)
