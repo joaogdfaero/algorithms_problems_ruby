@@ -23,7 +23,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Find Three, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/find_three.rb)
 - [Reversal, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/reversal.rb)
 - [Find Future, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/find_future.rb)
-- Calculate Age, (easy)
+- [Calculate Age, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/calculate_age.rb)
 
 P.S: "Others" folder contains some of the problems and algorithms solved in other languagens then Ruby.
 
