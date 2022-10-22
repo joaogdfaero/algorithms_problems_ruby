@@ -22,6 +22,11 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Maximize Array, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/maximize_array.rb)
 - [Minimum Product, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_product.rb)
 - [Find Maximum, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/find_maximum.rb)
+- [Minimum Sum, médio]
+- [Job Sequencing Problem, médio]
+- [Fractional Knapsack Problem, médio]
+- [Paper Cut, médio]
+- [Minimize Cash Flow, difícil]
 
 **Problems**
 - [Missing Character, (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/missing_character.rb)
@@ -35,21 +40,6 @@ P.S: "Others" folder contains some of the problems and algorithms solved in othe
 
 
 
-Greedy Algorithms
-Minimum Sum, médio
-Job Sequencing Problem, médio
-Fractional Knapsack Problem, médio
-Paper Cut, médio
-Minimize Cash Flow, difícil
-
-Problemas:
-Tipos:
-String
-Common Characters, médio
-Group Words, médio
-Array
-Reorder Index, médio
-Positive and Negative, médio
 Date
 Sum Minute, médio
 Day Week, difícil
