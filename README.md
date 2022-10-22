@@ -13,6 +13,9 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 **Sorting Algorithms**
 - [Bubble Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/bubble_sort.rb)
 - [Counting Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/counting_sort.rb)
+- [Select Sort fácil
+- Merge Sort, médio
+- Quick Sort, médio
 
 **Greedy Algorithms**
 - [Minimum Sum, (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_sum.rb)
