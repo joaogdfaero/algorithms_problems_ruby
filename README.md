@@ -6,7 +6,9 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 **Searching Algorithms**
 - [Linear Search (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/linear_search.rb)
 - [Binary Search (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/binary_search.rb)
-- [Fibonacci Search]()
+- [Jump Search (fácil)]()
+- [Find Missing Number (fácil)]()
+- [Fibonacci Search (médio)]()
 
 **Sorting Algorithms**
 - [Bubble Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/bubble_sort.rb)
@@ -27,4 +29,28 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Calculate Age, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/calculate_age.rb)
 
 P.S: "Others" folder contains some of the problems and algorithms solved in other languagens then Ruby.
+
+
+Sorting Algorithms
+Select Sort, fácil
+Merge Sort, médio
+Quick Sort, médio
+Greedy Algorithms
+Minimum Sum, médio
+Job Sequencing Problem, médio
+Fractional Knapsack Problem, médio
+Paper Cut, médio
+Minimize Cash Flow, difícil
+
+Problemas:
+Tipos:
+String
+Common Characters, médio
+Group Words, médio
+Array
+Reorder Index, médio
+Positive and Negative, médio
+Date
+Sum Minute, médio
+Day Week, difícil
 
