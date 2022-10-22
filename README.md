@@ -6,27 +6,27 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 **Searching Algorithms**
 - [Linear Search (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/linear_search.rb)
 - [Binary Search (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/binary_search.rb)
-- [Jump Search (easy)]()
-- [Find Missing Number (easy)]()
-- [Fibonacci Search (medium)]()
+- Jump Search (easy)
+- Find Missing Number (easy)
+- Fibonacci Search (medium)
 
 **Sorting Algorithms**
 - [Bubble Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/bubble_sort.rb)
 - [Counting Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/counting_sort.rb)
-- [Select Sort (easy)]
-- [Merge Sort (medium)]
-- [Quick Sort (medium)]
+- Select Sort (easy)
+- Merge Sort (medium)
+- Quick Sort (medium)
 
 **Greedy Algorithms**
 - [Minimum Sum, (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_sum.rb)
 - [Maximize Array, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/maximize_array.rb)
 - [Minimum Product, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_product.rb)
 - [Find Maximum, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/find_maximum.rb)
-- [Minimum Sum, médio]
-- [Job Sequencing Problem, médio]
-- [Fractional Knapsack Problem, médio]
-- [Paper Cut, médio]
-- [Minimize Cash Flow, difícil]
+- Minimum Sum (medium)
+- Job Sequencing Problem (medium)
+- Fractional Knapsack Problem (medium)
+- Paper Cut (medium)
+- Minimize Cash Flow (hard)
 
 **Problems**
 - [Missing Character, (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/missing_character.rb)
@@ -40,7 +40,4 @@ P.S: "Others" folder contains some of the problems and algorithms solved in othe
 
 
 
-Date
-Sum Minute, médio
-Day Week, difícil
 
