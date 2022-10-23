@@ -7,7 +7,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Linear Search (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/linear_search.rb)
 - [Binary Search (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/binary_search.rb)
 - Jump Search (easy)
-- Find Missing Number (easy)
+- [Find Missing Number (easy)]()
 - Fibonacci Search (medium)
 
 **Sorting Algorithms**
