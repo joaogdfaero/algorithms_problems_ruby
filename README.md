@@ -14,7 +14,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Bubble Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/bubble_sort.rb)
 - [Counting Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/counting_sort.rb)
 - Select Sort (easy)
-- [Merge Sort (medium)]()
+- [Merge Sort (medium)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_2/merge_sort.rb)
 - Quick Sort (medium)
 
 **Greedy Algorithms**
