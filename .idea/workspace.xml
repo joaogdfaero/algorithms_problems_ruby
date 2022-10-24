@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="feat: divide arrat working">
-      <change beforePath="$PROJECT_DIR$/algorithms_level_2/merge_sort_simpler.rb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_level_2/merge_sort_simpler.rb" afterDir="false" />
-    </list>
+    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="docs: right name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/job_sequencing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,23 +29,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="feature/merge_sort" />
-                    <option name="lastUsedInstant" value="1666642506" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1666118501" />
+                    <option name="lastUsedInstant" value="1666641645" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/job_sequencing" />
-                    <option name="lastUsedInstant" value="1666118435" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feature/selection_sort" />
-                    <option name="lastUsedInstant" value="1665659223" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feature/common_characters" />
-                    <option name="lastUsedInstant" value="1665590688" />
+                    <option name="lastUsedInstant" value="1666641644" />
                   </RecentBranch>
                 </list>
               </option>
@@ -61,7 +47,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Foky2refdGJojDiFlLUKQ6H0Po" />
+  <component name="ProjectId" id="2GMnTXvFTLwUWTGpyY2mLgtZI2k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -73,15 +59,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/joao/Documents/GitHub/algorithms_problems_ruby&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RubyModuleManagerSettings">
@@ -100,11 +84,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -133,11 +113,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -162,11 +138,7 @@
       <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
       <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
@@ -182,11 +154,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -204,11 +172,7 @@
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -222,11 +186,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -244,253 +204,115 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="" />
-      <created>1665166079475</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1665166079475</updated>
-      <workItem from="1665166099113" duration="2985000" />
-      <workItem from="1665490610994" duration="9306000" />
-      <workItem from="1665500434712" duration="61000" />
-      <workItem from="1665504129132" duration="51000" />
-      <workItem from="1665504341874" duration="114000" />
-      <workItem from="1665509817044" duration="311000" />
-      <workItem from="1665510138559" duration="1359000" />
-      <workItem from="1665579773053" duration="35000" />
-      <workItem from="1665579931596" duration="258000" />
-      <workItem from="1665581978494" duration="4797000" />
-      <workItem from="1665590473669" duration="3304000" />
-      <workItem from="1665658955692" duration="3025000" />
-      <workItem from="1665690899800" duration="1108000" />
-      <workItem from="1665770229025" duration="5548000" />
-      <workItem from="1665862829343" duration="29000" />
-      <workItem from="1665865233250" duration="975000" />
-      <workItem from="1666023168055" duration="352000" />
-      <workItem from="1666024029823" duration="863000" />
-      <workItem from="1666026247360" duration="1954000" />
-      <workItem from="1666028449524" duration="280000" />
-      <workItem from="1666118069905" duration="139000" />
-      <workItem from="1666118358095" duration="164000" />
-    </task>
-    <task id="LOCAL-00001" summary="teste com rubymine">
-      <created>1665167136195</created>
+    <task id="LOCAL-00001" summary="feat: created merge sort file">
+      <created>1666118682331</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1665167136195</updated>
+      <updated>1666118682331</updated>
     </task>
-    <task id="LOCAL-00002" summary="teste com rubymine">
-      <created>1665167146881</created>
+    <task id="LOCAL-00002" summary="docs: merge sort explanation and links">
+      <created>1666119545306</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1665167146881</updated>
+      <updated>1666119545306</updated>
     </task>
-    <task id="LOCAL-00003" summary="docs(jump_search): add comment">
-      <created>1665510331622</created>
+    <task id="LOCAL-00003" summary="feat: wrote first, last and mid index">
+      <created>1666120294385</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1665510331622</updated>
+      <updated>1666120294385</updated>
     </task>
-    <task id="LOCAL-00004" summary="docs(jump_search): add comment">
-      <created>1665510481474</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="feat: wrote first, last and mid index" />
+      <created>1666207347368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666207347368</updated>
+      <workItem from="1666207388009" duration="1891000" />
+      <workItem from="1666264174176" duration="2441000" />
+      <workItem from="1666640836346" duration="846000" />
+    </task>
+    <task id="LOCAL-00004" summary="docs: added comment">
+      <created>1666207505639</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1665510481474</updated>
+      <updated>1666207505639</updated>
     </task>
-    <task id="LOCAL-00005" summary="feat(jump_search): find missing number algorithm done">
-      <created>1665583489583</created>
+    <task id="LOCAL-00005" summary="feat: loop division working">
+      <created>1666208401113</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1665583489583</updated>
+      <updated>1666208401113</updated>
     </task>
-    <task id="LOCAL-00006" summary="docs(fibonacci_search): inserted link">
-      <created>1665583914487</created>
+    <task id="LOCAL-00006" summary="docs: explaining github solution">
+      <created>1666209230090</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1665583914487</updated>
+      <updated>1666209230090</updated>
     </task>
-    <task id="LOCAL-00007" summary="docs(fibonacci_search): inserted link">
-      <created>1665583939076</created>
+    <task id="LOCAL-00007" summary="feat: removed code">
+      <created>1666264230459</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1665583939076</updated>
+      <updated>1666264230459</updated>
     </task>
-    <task id="LOCAL-00008" summary="feat(fibonacci_search): created distance array">
-      <created>1665586064954</created>
+    <task id="LOCAL-00008" summary="feat: wrote all the code">
+      <created>1666265815928</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1665586064954</updated>
+      <updated>1666265815928</updated>
     </task>
-    <task id="LOCAL-00009" summary="docs(fibonacci_search): calculated distance, but can't find minimum closest yet">
-      <created>1665587430264</created>
+    <task id="LOCAL-00009" summary="docs: comment">
+      <created>1666265877924</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1665587430264</updated>
+      <updated>1666265877924</updated>
     </task>
-    <task id="LOCAL-00010" summary="feat(common_characters): double loop created">
-      <created>1665591204521</created>
+    <task id="LOCAL-00010" summary="docs: comment about recursion">
+      <created>1666266596819</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1665591204521</updated>
+      <updated>1666266596819</updated>
     </task>
-    <task id="LOCAL-00011" summary="feat(common_characters): works finding included characters (not common)">
-      <created>1665591358728</created>
+    <task id="LOCAL-00011" summary="docs: comment">
+      <created>1666641051140</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1665591358728</updated>
+      <updated>1666641051140</updated>
     </task>
-    <task id="LOCAL-00012" summary="feat(common_characters): works finding included characters in each array">
-      <created>1665592903298</created>
+    <task id="LOCAL-00012" summary="docs: comment">
+      <created>1666641524305</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1665592903299</updated>
+      <updated>1666641524305</updated>
     </task>
-    <task id="LOCAL-00013" summary="feat(common_characters): feature working">
-      <created>1665593748230</created>
+    <task id="LOCAL-00013" summary="docs: wrong name">
+      <created>1666641559608</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1665593748230</updated>
+      <updated>1666641559608</updated>
     </task>
-    <task id="LOCAL-00014" summary="feat(selection_sort): started feature">
-      <created>1665659259039</created>
+    <task id="LOCAL-00014" summary="docs: right name">
+      <created>1666641598618</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1665659259040</updated>
+      <updated>1666641598618</updated>
     </task>
-    <task id="LOCAL-00015" summary="feat(selection_sort): don't understand why array isn't changing">
-      <created>1665660792689</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1665660792689</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat(selection_sort): run debug to see whats happening">
-      <created>1665661975221</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1665661975221</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat(selection_sort): feature working!">
-      <created>1665692765324</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1665692765324</updated>
-    </task>
-    <task id="LOCAL-00018" summary="docs(selection_sort): removed useless comment">
-      <created>1665692830699</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1665692830699</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat(job_sequencing): started loop">
-      <created>1665773319375</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1665773319375</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat(job_sequencing): working for maior_lucro = menor_deadline in all jobs">
-      <created>1665774608125</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1665774608125</updated>
-    </task>
-    <task id="LOCAL-00021" summary="feat(job_sequencing): working but don't consider ending deadlines">
-      <created>1665775325596</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1665775325596</updated>
-    </task>
-    <task id="LOCAL-00022" summary="feat(job_sequencing): trying to delete out dated jobs">
-      <created>1665866057402</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1665866057402</updated>
-    </task>
-    <task id="LOCAL-00023" summary="feat(job_sequencing): commented out bad idea">
-      <created>1665866173801</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1665866173801</updated>
-    </task>
-    <task id="LOCAL-00024" summary="feat(job_sequencing): comment to explain section">
-      <created>1666026467378</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1666026467378</updated>
-    </task>
-    <task id="LOCAL-00025" summary="feat(job_sequencing): removed wrong until loop">
-      <created>1666026978237</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1666026978237</updated>
-    </task>
-    <task id="LOCAL-00026" summary="feat(job_sequencing): moved code to the right sequence">
-      <created>1666027244687</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1666027244687</updated>
-    </task>
-    <task id="LOCAL-00027" summary="feat(job_sequencing): working for one tested input">
-      <created>1666028011502</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1666028011502</updated>
-    </task>
-    <task id="LOCAL-00028" summary="feat(job_sequencing): working for one tested input">
-      <created>1666028606443</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1666028606443</updated>
-    </task>
-    <task id="LOCAL-00029" summary="feat(job_sequencing): working for one tested input">
-      <created>1666028632203</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1666028632203</updated>
-    </task>
-    <task id="LOCAL-00030" summary="docs: new files">
-      <created>1666642452381</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1666642452381</updated>
-    </task>
-    <task id="LOCAL-00031" summary="feat: divide arrat working">
-      <created>1666643056908</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1666643056909</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,110 +323,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docs(jump_search): add comment" />
-    <MESSAGE value="feat(jump_search): find missing number algorithm done" />
-    <MESSAGE value="docs(fibonacci_search): inserted link" />
-    <MESSAGE value="feat(fibonacci_search): created distance array" />
-    <MESSAGE value="docs(fibonacci_search): calculated distance, but can't find minimum closest yet" />
-    <MESSAGE value="feat(common_characters): double loop created" />
-    <MESSAGE value="feat(common_characters): works finding included characters (not common)" />
-    <MESSAGE value="feat(common_characters): works finding included characters in each array" />
-    <MESSAGE value="feat(common_characters): feature working" />
-    <MESSAGE value="feat(selection_sort): started feature" />
-    <MESSAGE value="feat(selection_sort): don't understand why array isn't changing" />
-    <MESSAGE value="feat(selection_sort): run debug to see whats happening" />
-    <MESSAGE value="feat(selection_sort): feature working!" />
-    <MESSAGE value="docs(selection_sort): removed useless comment" />
-    <MESSAGE value="feat(job_sequencing): started loop" />
-    <MESSAGE value="feat(job_sequencing): working for maior_lucro = menor_deadline in all jobs" />
-    <MESSAGE value="feat(job_sequencing): working but don't consider ending deadlines" />
-    <MESSAGE value="feat(job_sequencing): trying to delete out dated jobs" />
-    <MESSAGE value="feat(job_sequencing): commented out bad idea" />
-    <MESSAGE value="feat(job_sequencing): comment to explain section" />
-    <MESSAGE value="feat(job_sequencing): removed wrong until loop" />
-    <MESSAGE value="feat(job_sequencing): moved code to the right sequence" />
-    <MESSAGE value="feat(job_sequencing): working for one tested input" />
-    <MESSAGE value="docs: new files" />
-    <MESSAGE value="feat: divide arrat working" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: divide arrat working" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/algorithms_level_2/jump_search.rb</url>
-          <line>9</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/algorithms_level_1/find_maximum.rb</url>
-          <line>7</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/algorithms_level_2/find_missing_number.rb</url>
-          <line>11</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/algorithms_level_2/fibonacci_search.rb</url>
-          <line>11</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/problems_level_1/calculate_age.rb</url>
-          <line>12</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/algorithms_level_2/job_sequencing.rb</url>
-          <line>46</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="feat: created merge sort file" />
+    <MESSAGE value="docs: merge sort explanation and links" />
+    <MESSAGE value="feat: wrote first, last and mid index" />
+    <MESSAGE value="docs: added comment" />
+    <MESSAGE value="feat: loop division working" />
+    <MESSAGE value="docs: explaining github solution" />
+    <MESSAGE value="feat: removed code" />
+    <MESSAGE value="feat: wrote all the code" />
+    <MESSAGE value="docs: comment about recursion" />
+    <MESSAGE value="docs: comment" />
+    <MESSAGE value="docs: wrong name" />
+    <MESSAGE value="docs: right name" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: right name" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@jump_search.rcov" NAME="jump_search Coverage Results" MODIFIED="1665579788529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
