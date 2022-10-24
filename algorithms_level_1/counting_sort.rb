@@ -7,36 +7,59 @@
 #You count how many of each digit there is, and then you determine each digit's starting position by counting how many cells are taken up by the digits before it!
 
 def counting_sort(lista)
-    p "A lista a ser ordenada é"
     p lista
 
-    # criando um index
-    index = (0..lista.length()).to_a
+    # count ocurrence of each number in list
+    count = Array.new(10,0) # count array
+
+    index = Array(0..9)
     p index
 
-    # tamanho da lista
-    tamanho = lista.length()
-    p "O tamanho da lista é"
-    p tamanho
+    p
 
-     indice =0
-     contagem=Array.new(tamanho, 0)
-    p "______________"
-    # untill indice = tamanho + 1
-    #while indice != tamanho 
-    (0..tamanho-1).to_a.each do |indice| # NÃO FUNCIONA PORQUE ELE CONTA CADA NÚMERO SÓ 1X
-        if index[indice] in lista
-            p "o indice é"
-            p indice
-            p "a contagem é"
-            p contagem
-            p "temos o mesmo elemento, logo a contagem virou"
-            contagem[indice] = contagem[indice]+1
-            p contagem
-        else
-            p "não temos o elemento"
+    (0..9).each do |j|
+        (0..lista.length-1).each do |i|
+            if lista[i] == j
+                count[j] = count[j] + 1
+            end
+    end
+    end
+
+    # count array with sum of previous elements
+    (1..count.length-1).each do |i|
+        count[i] = count [i] + count[i-1]
+    end
+
+    # rotate the array clockwise for one time
+    count = count.rotate(-1)
+    count[0] = 0
+
+    p count
+
+    # print elements in order
+    result = Array.new(lista.length,0)
+
+    (0..lista.length-1).each do |i|
+        result[count[lista[i]]] = lista [i]
+    end
+
+    (0..lista.length-1).each do |i|
+        if result[i] == 0
+            result.delete_at(i)
         end
     end
+
+
+
+    p result
+
+
+
+
+
+
+
+
 end
 # 1 - Conta as ocorrências de cada número do array
 # 2 - Nesse novo array das somas das ocorrências, mantém o primeiro termo

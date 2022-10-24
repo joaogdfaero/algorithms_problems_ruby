@@ -5,7 +5,6 @@ def maximize_array(a,k)
     # 2 turn that number to number = - number
     # 3 do that k times
     # 4 sum all numbers in the final array
-    p "A lista é #{a}"
 
     tamanho = a.length
 
@@ -34,7 +33,7 @@ sum = 0
     sum = sum + a[i]
    end
 
-p "A soma final é #{sum}"
+return sum
 
 end
 
