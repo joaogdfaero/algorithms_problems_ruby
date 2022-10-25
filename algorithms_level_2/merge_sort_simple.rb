@@ -17,6 +17,10 @@ def merge(left_array, right_array) # method that given two arrays can merge them
   sorted_array = []
   # If either array is empty we don't need to compare them
 
+  p "antes"
+  p left_array
+  p right_array
+
   while !left_array.empty? && !right_array.empty? do # while the arrays are not empty
     # we are shifting out the compared/used values so we don't repeat
     if left_array[0] < right_array[0]
@@ -26,6 +30,16 @@ def merge(left_array, right_array) # method that given two arrays can merge them
     end
   end
 
+  p "depois"
+  p left_array
+  p right_array
+
+  p "sorted array"
+  p sorted_array
+
   #concat appends elements of another array to an array
+  # concatenates all elements from left or right array who whore not shifted (deleted from array and pushed to sorted_array) in while loop line 20
   return sorted_array.concat(left_array).concat(right_array)
 end
+
+p merge_sort([33,4,500,1,2])

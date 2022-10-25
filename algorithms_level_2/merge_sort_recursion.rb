@@ -39,7 +39,7 @@ class MergeSortAlgorithm
     recursive = merge(left_array,right_array) # recursion keeps iterating function untill either left or right array are empty https://www.rubyguides.com/2015/08/ruby-recursion-and-memoization/#:~:text=What%20is%20recursion%20in%20Ruby,work%20left%20to%20be%20done.
 
     # Okay, either left or right array are empty at this point. So we have a result.
-    [smallest_number].concat(recursive) # concatenate smallest_number with recursive
+    [smallest_number].concat(recursive) # concatenate smallest_number with recursive # get all smallest numbers concatenated
 
 
   end
