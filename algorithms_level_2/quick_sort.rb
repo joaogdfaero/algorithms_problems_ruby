@@ -25,6 +25,10 @@ def quick_sort(unsorted_array)
 
   p unsorted_array
 
+  # swap 70 with 50
+  unsorted_array[pivot_index],unsorted_array[i+1] = unsorted_array[i+1], unsorted_array[pivot_index]
+
+  p unsorted_array
 end
 
 unsorted_array = [10, 80, 30, 90, 40, 50, 70]
