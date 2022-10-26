@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="feat: finished merge sort simple">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_level_2/merge_sort_recursion.rb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_level_2/merge_sort_recursion.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb" afterDir="false" />
+    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="feat: already sorted array do nothing working">
+      <change beforePath="$PROJECT_DIR$/algorithms_level_2/quick_sort.rb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_level_2/quick_sort.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/job_sequencing" />
+        <entry key="$PROJECT_DIR$" value="feature/merge_sort" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +29,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/quick_sort" />
+                    <option name="lastUsedInstant" value="1666696864" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/merge_sort" />
                     <option name="lastUsedInstant" value="1666641645" />
@@ -59,20 +61,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
@@ -263,7 +265,9 @@
       <workItem from="1666207388009" duration="1891000" />
       <workItem from="1666264174176" duration="2441000" />
       <workItem from="1666640836346" duration="846000" />
-      <workItem from="1666694035254" duration="2505000" />
+      <workItem from="1666694035254" duration="5095000" />
+      <workItem from="1666699406930" duration="135000" />
+      <workItem from="1666808933411" duration="3081000" />
     </task>
     <task id="LOCAL-00004" summary="docs: added comment">
       <created>1666207505639</created>
@@ -356,7 +360,42 @@
       <option name="project" value="LOCAL" />
       <updated>1666694782855</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="docs: still trying to understand code">
+      <created>1666696702206</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666696702206</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: first sorting working">
+      <created>1666698948569</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666698948570</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: first sorting working">
+      <created>1666699137874</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666699137874</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: first sorting works">
+      <created>1666811028121</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666811028121</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: already sorted array do nothing working">
+      <created>1666811432241</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666811432241</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,19 +427,24 @@
     <MESSAGE value="docs: right name" />
     <MESSAGE value="docs: changed file name" />
     <MESSAGE value="feat: finished merge sort simple" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: finished merge sort simple" />
+    <MESSAGE value="docs: still trying to understand code" />
+    <MESSAGE value="feat: first sorting working" />
+    <MESSAGE value="feat: first sorting works" />
+    <MESSAGE value="feat: already sorted array do nothing working" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: already sorted array do nothing working" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@jump_search.rcov" NAME="jump_search Coverage Results" MODIFIED="1665579788529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@selection_sort.rcov" NAME="selection_sort Coverage Results" MODIFIED="1665692676124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@find_missing_number.rcov" NAME="find_missing_number Coverage Results" MODIFIED="1665583439642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@quick_sort.rcov" NAME="quick_sort Coverage Results" MODIFIED="1666811967390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@fibonacci_search.rcov" NAME="fibonacci_search Coverage Results" MODIFIED="1665587020169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@calculate_age.rcov" NAME="calculate_age Coverage Results" MODIFIED="1666024797839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort_simple.rcov" NAME="merge_sort_simple Coverage Results" MODIFIED="1666696523948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@job_sequencing.rcov" NAME="job_sequencing Coverage Results" MODIFIED="1666028169169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@counting_sort.rcov" NAME="counting_sort Coverage Results" MODIFIED="1665493786818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort.rcov" NAME="merge_sort Coverage Results" MODIFIED="1666265596912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@common_characters.rcov" NAME="common_characters Coverage Results" MODIFIED="1665593717992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@jump_search.rcov" NAME="jump_search Coverage Results" MODIFIED="1665579788529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@find_missing_number.rcov" NAME="find_missing_number Coverage Results" MODIFIED="1665583439642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@calculate_age.rcov" NAME="calculate_age Coverage Results" MODIFIED="1666024797839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort_simple.rcov" NAME="merge_sort_simple Coverage Results" MODIFIED="1666809359283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@job_sequencing.rcov" NAME="job_sequencing Coverage Results" MODIFIED="1666028169169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@counting_sort.rcov" NAME="counting_sort Coverage Results" MODIFIED="1665493786818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@linear_search.rcov" NAME="linear_search Coverage Results" MODIFIED="1666024374210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@find_maximum.rcov" NAME="find_maximum Coverage Results" MODIFIED="1665580094420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
   </component>
