@@ -43,3 +43,5 @@ def merge(left_array, right_array) # method that given two arrays can merge them
 end
 
 p merge_sort([33,4,500,1,2])
+
+# não entendo como o número vai pro sorted-array mas depois reaparece para ser comparado
