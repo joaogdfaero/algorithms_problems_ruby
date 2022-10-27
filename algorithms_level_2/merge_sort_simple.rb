@@ -7,8 +7,8 @@ def merge_sort(unsorted_array)
   else
     # divding and then merge-sorting the halves
     mid = unsorted_array.length/2
-    first_half = merge_sort(unsorted_array.slice(0...mid))
-    second_half = merge_sort(unsorted_array.slice(mid...unsorted_array.length))
+    first_half = merge_sort(unsorted_array.slice(0...mid)) # recursion to call himselft to divide again
+    second_half = merge_sort(unsorted_array.slice(mid...unsorted_array.length)) # recursion to call himselft to divide again
     merge(first_half,second_half)
   end
 end
