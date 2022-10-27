@@ -6,7 +6,7 @@
 def quick_sort(unsorted_array)
   # In case the array is already sorted
   if unsorted_array == unsorted_array.sort
-    p unsorted_array
+    return unsorted_array
   else
     # make the last element the pivot element
     pivot_index = unsorted_array.length - 1
@@ -24,19 +24,23 @@ def quick_sort(unsorted_array)
 
     # swap i+1 with pivot
     unsorted_array[pivot_index],unsorted_array[i+1] = unsorted_array[i+1], unsorted_array[pivot_index]
-
+    p "unsorted_array is"
     p unsorted_array
 
+    # works if i just use quick sort again
+    recursive = quick_sort(unsorted_array)
 
+    # READ: https://medium.com/ambitions-of-a-recovering-salesman/3-simple-steps-for-writing-recursive-methods-in-ruby-or-any-other-language-3d6ee72c0bbc
     # RECURSION ISN'T WORKING BECAUSE IT KEEPS CALLING HIMSELF AGAIN. IF I COULD USE RECURSION OUTSIDE THE METHOD IT WOULD PROBABLY WORK
-    # apply quick-sort to left and right part (recursion?)
-    recursive_left = quick_sort(unsorted_array.take(i+1))
-    p "recursive_left is #{recursive_left}"
 
-    recursive_right = quick_sort(unsorted_array.drop(i+1))
-    p "recursive_right is #{recursive_right}"
-
-    p unsorted_array.concat(recursive_left).concat(recursive_right)
+    # # apply quick-sort to left and right part (recursion?)
+    # recursive_left = quick_sort(unsorted_array.take(i+1))
+    # p "recursive_left is #{recursive_left}"
+    #
+    # recursive_right = quick_sort(unsorted_array.drop(i+1))
+    # p "recursive_right is #{recursive_right}"
+    #
+    # p unsorted_array.concat(recursive_left).concat(recursive_right)
 
   end
 
