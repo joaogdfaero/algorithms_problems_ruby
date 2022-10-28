@@ -23,7 +23,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Minimum Product, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_product.rb)
 - [Find Maximum, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/find_maximum.rb)
 - Minimum Sum (medium)
-- Job Sequencing Problem (medium)
+- [Job Sequencing Problem (medium)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_2/job_sequencing.rb)
 - Fractional Knapsack Problem (medium)
 - Paper Cut (medium)
 - Minimize Cash Flow (hard)
