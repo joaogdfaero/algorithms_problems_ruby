@@ -15,7 +15,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Counting Sort, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/counting_sort.rb)
 - [Select Sort (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_2/selection_sort.rb)
 - [Merge Sort (medium)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_2/merge_sort.rb)
-- Quick Sort (medium)
+- [Quick Sort (medium)]()
 
 **Greedy Algorithms**
 - [Minimum Sum, (basic)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_sum.rb)
