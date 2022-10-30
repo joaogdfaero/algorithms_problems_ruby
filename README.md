@@ -35,9 +35,8 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Reversal, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/reversal.rb)
 - [Find Future, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/find_future.rb)
 - [Calculate Age, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/calculate_age.rb)
-- Common Characters, médio
-- Group Words, médio
-- Array
+- Common Characters (medium)
+- Group Words (medium)
 - Reorder Index, médio
 - Positive and Negative, médio
 - Date
