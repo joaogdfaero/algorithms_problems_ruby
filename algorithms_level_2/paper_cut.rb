@@ -30,13 +30,6 @@ class Algorithms_Level2
     p "Input : #{a} x #{b}"
     p "Output : #{counter}"
 
-
-
-
-
-
-
-
   end
 end
 
