@@ -22,7 +22,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Maximize Array, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/maximize_array.rb)
 - [Minimum Product, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_product.rb)
 - [Find Maximum, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/find_maximum.rb)
-- Minimum Sum (medium)
+- [Minimum Sum (medium)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_1/minimum_sum.rb)
 - [Job Sequencing Problem (medium)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/algorithms_level_2/job_sequencing.rb)
 - Fractional Knapsack Problem (medium)
 - Paper Cut (medium)
@@ -35,8 +35,15 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - [Reversal, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/reversal.rb)
 - [Find Future, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/find_future.rb)
 - [Calculate Age, (easy)](https://github.com/joaogdfaero/algorithms_problems_ruby/blob/main/problems_level_1/calculate_age.rb)
+- Common Characters (medium)
+- Group Words (medium)
+- Reorder Index (medium)
+- Positive and Negative (medium)
+- Sum Minute (medium)
+- Day Week (hard)
 
 P.S: "Others" folder contains some of the problems and algorithms solved in other languagens then Ruby.
+
 
 
 
