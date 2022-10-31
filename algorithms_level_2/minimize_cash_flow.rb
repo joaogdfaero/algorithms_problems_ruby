@@ -21,7 +21,7 @@ end
 
 # graph[i][j] indicates the amount
 # that person i needs to pay person j
-graph = [[0,1000,2000],[0,0,5000],[0,0,0]]
+graph = [[0, 1000, 2000], [0, 0, 5000], [0, 0, 0]]
 
 test = Algorithms_Level2.new
 test.minimize_cash_flow(graph)
