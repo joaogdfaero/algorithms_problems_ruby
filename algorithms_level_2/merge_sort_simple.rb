@@ -1,5 +1,7 @@
 # REFERENCE: https://medium.com/@allegranzia/merge-sort-in-ruby-102b750af287
 
+# I didn't understand how UNSORTED_ARRAY changes
+
 class Algorithms_Level2
   def merge_sort(unsorted_array)
     # if array only has one element or fewer there is nothing to do except print
@@ -8,7 +10,7 @@ class Algorithms_Level2
     else
       # divding and then merge-sorting the halves
       mid = unsorted_array.length/2
-      first_half = merge_sort(unsorted_array.slice(0...mid)) # recursion to call himselt to divide again
+      first_half = merge_sort(unsorted_array.slice(0...mid)) # recursion to call himself to divide again
       second_half = merge_sort(unsorted_array.slice(mid...unsorted_array.length)) # recursion to call himself to divide again
       merge(first_half,second_half)
     end
