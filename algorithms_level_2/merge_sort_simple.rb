@@ -7,8 +7,8 @@ def merge_sort(unsorted_array)
   else
     # divding and then merge-sorting the halves
     mid = unsorted_array.length/2
-    first_half = merge_sort(unsorted_array.slice(0...mid)) # recursion to call himselft to divide again
-    second_half = merge_sort(unsorted_array.slice(mid...unsorted_array.length)) # recursion to call himselft to divide again
+    first_half = merge_sort(unsorted_array.slice(0...mid)) # recursion to call himselt to divide again
+    second_half = merge_sort(unsorted_array.slice(mid...unsorted_array.length)) # recursion to call himself to divide again
     merge(first_half,second_half)
   end
 end
@@ -17,9 +17,6 @@ def merge(left_array, right_array) # method that given two arrays can merge them
   sorted_array = []
   # If either array is empty we don't need to compare them
 
-  p "antes"
-  p left_array
-  p right_array
 
   while !left_array.empty? && !right_array.empty? do # while the arrays are not empty
     # we are shifting out the compared/used values so we don't repeat
@@ -30,18 +27,9 @@ def merge(left_array, right_array) # method that given two arrays can merge them
     end
   end
 
-  p "depois"
-  p left_array
-  p right_array
-
-  p "sorted array"
-  p sorted_array
-
   #concat appends elements of another array to an array
   # concatenates all elements from left or right array who whore not shifted (deleted from array and pushed to sorted_array) in while loop line 20
   return sorted_array.concat(left_array).concat(right_array)
 end
 
 p merge_sort([33,4,500,1,2])
-
-# não entendo como o número vai pro sorted-array mas depois reaparece para ser comparado

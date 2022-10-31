@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="feat: already sorted array do nothing working">
-      <change beforePath="$PROJECT_DIR$/algorithms_level_2/quick_sort.rb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_level_2/quick_sort.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +65,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/joao-desktop/RubymineProjects/algorithms_problems_ruby&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -268,6 +272,10 @@
       <workItem from="1666694035254" duration="5095000" />
       <workItem from="1666699406930" duration="135000" />
       <workItem from="1666808933411" duration="3081000" />
+      <workItem from="1667063291735" duration="123000" />
+      <workItem from="1667066004797" duration="65000" />
+      <workItem from="1667068782934" duration="8000" />
+      <workItem from="1667239741036" duration="665000" />
     </task>
     <task id="LOCAL-00004" summary="docs: added comment">
       <created>1666207505639</created>
@@ -433,19 +441,73 @@
     <MESSAGE value="feat: already sorted array do nothing working" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: already sorted array do nothing working" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb</url>
+          <line>31</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb</url>
+          <line>20</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb</url>
+          <line>8</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb</url>
+          <line>9</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb</url>
+          <line>10</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/merge_sort_simple.rb</url>
+          <line>11</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@linear_search.rcov" NAME="linear_search Coverage Results" MODIFIED="1666024374210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@selection_sort.rcov" NAME="selection_sort Coverage Results" MODIFIED="1665692676124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@job_sequencing.rcov" NAME="job_sequencing Coverage Results" MODIFIED="1666028169169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@quick_sort.rcov" NAME="quick_sort Coverage Results" MODIFIED="1666811967390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@fibonacci_search.rcov" NAME="fibonacci_search Coverage Results" MODIFIED="1665587020169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort.rcov" NAME="merge_sort Coverage Results" MODIFIED="1666265596912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@common_characters.rcov" NAME="common_characters Coverage Results" MODIFIED="1665593717992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@jump_search.rcov" NAME="jump_search Coverage Results" MODIFIED="1665579788529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@find_missing_number.rcov" NAME="find_missing_number Coverage Results" MODIFIED="1665583439642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@calculate_age.rcov" NAME="calculate_age Coverage Results" MODIFIED="1666024797839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort_simple.rcov" NAME="merge_sort_simple Coverage Results" MODIFIED="1666809359283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@job_sequencing.rcov" NAME="job_sequencing Coverage Results" MODIFIED="1666028169169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@counting_sort.rcov" NAME="counting_sort Coverage Results" MODIFIED="1665493786818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@linear_search.rcov" NAME="linear_search Coverage Results" MODIFIED="1666024374210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@find_maximum.rcov" NAME="find_maximum Coverage Results" MODIFIED="1665580094420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@calculate_age.rcov" NAME="calculate_age Coverage Results" MODIFIED="1666024797839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@common_characters.rcov" NAME="common_characters Coverage Results" MODIFIED="1665593717992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@find_missing_number.rcov" NAME="find_missing_number Coverage Results" MODIFIED="1665583439642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@counting_sort.rcov" NAME="counting_sort Coverage Results" MODIFIED="1665493786818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort_simple.rcov" NAME="merge_sort_simple Coverage Results" MODIFIED="1667240114770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort.rcov" NAME="merge_sort Coverage Results" MODIFIED="1666265596912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
   </component>
 </project>
