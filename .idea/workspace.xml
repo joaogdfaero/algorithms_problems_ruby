@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="feat: paper_cut working">
-      <change afterPath="$PROJECT_DIR$/algorithms_level_2/paper_cut.rb" afterDir="false" />
+    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="style: removed white space">
+      <change afterPath="$PROJECT_DIR$/algorithms_level_2/minimize_cash_flow.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/paper_cut" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +30,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/minimize_cash_flow" />
+                    <option name="lastUsedInstant" value="1667244258" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/paper_cut" />
                     <option name="lastUsedInstant" value="1667241969" />
@@ -266,7 +270,7 @@
       <workItem from="1667063291735" duration="123000" />
       <workItem from="1667066004797" duration="65000" />
       <workItem from="1667068782934" duration="8000" />
-      <workItem from="1667239741036" duration="4400000" />
+      <workItem from="1667239741036" duration="5792000" />
     </task>
     <task id="LOCAL-00004" summary="docs: added comment">
       <created>1666207505639</created>
@@ -422,7 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667244138102</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="style: removed white space">
+      <created>1667244172403</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667244172403</updated>
+    </task>
+    <task id="LOCAL-00027" summary="style: removed white space">
+      <created>1667244203810</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1667244203810</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +479,8 @@
     <MESSAGE value="docs: didn't get how &quot;unsorted_array&quot; changes" />
     <MESSAGE value="style(add class and method):" />
     <MESSAGE value="feat: paper_cut working" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: paper_cut working" />
+    <MESSAGE value="style: removed white space" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: removed white space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,5 +511,6 @@
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@paper_cut.rcov" NAME="paper_cut Coverage Results" MODIFIED="1667244113543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort_simple.rcov" NAME="merge_sort_simple Coverage Results" MODIFIED="1667241535063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort.rcov" NAME="merge_sort Coverage Results" MODIFIED="1666265596912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@minimize_cash_flow.rcov" NAME="minimize_cash_flow Coverage Results" MODIFIED="1667245495338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
   </component>
 </project>
