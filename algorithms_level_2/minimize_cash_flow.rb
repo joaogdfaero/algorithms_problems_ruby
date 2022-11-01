@@ -5,7 +5,11 @@ class Algorithms_Level2
   def minimize_cash_flow(graph)
 
     # Compute the net amount for every person. The net amount for person ‘i’ can be computed by subtracting sum of all debts from sum of all credits.
-    p net_amount_1 = graph[0].sum - graph[1][1] + graph[2][1] # DOO THIS WITH A ITERATION LOOP
+    net_amount_0 = graph[0].sum - graph[1][0] - graph[2][0]
+    net_amount_1 = graph[1].sum - graph[0][1] - graph[2][1]
+    net_amount_2 = graph[2].sum - graph[0][2] - graph[1][2]
+
+
 
 
 
