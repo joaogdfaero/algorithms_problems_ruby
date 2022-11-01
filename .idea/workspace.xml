@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="build: written code algorithm, class and methods">
+    <list default="true" id="bb8a0973-3a22-4ea6-85fe-b65940c8d36a" name="Changes" comment="feat: calculates net ammount for each person">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms_level_2/minimize_cash_flow.rb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_level_2/minimize_cash_flow.rb" afterDir="false" />
     </list>
@@ -271,7 +271,7 @@
       <workItem from="1667066004797" duration="65000" />
       <workItem from="1667068782934" duration="8000" />
       <workItem from="1667239741036" duration="5967000" />
-      <workItem from="1667296699154" duration="873000" />
+      <workItem from="1667296699154" duration="5058000" />
     </task>
     <task id="LOCAL-00004" summary="docs: added comment">
       <created>1666207505639</created>
@@ -455,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667245619329</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: calculates net ammount for each person">
+      <created>1667297704177</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667297704177</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +503,8 @@
     <MESSAGE value="feat: paper_cut working" />
     <MESSAGE value="style: removed white space" />
     <MESSAGE value="build: written code algorithm, class and methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: written code algorithm, class and methods" />
+    <MESSAGE value="feat: calculates net ammount for each person" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: calculates net ammount for each person" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -511,11 +519,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/algorithms_level_2/minimize_cash_flow.rb</url>
-          <line>9</line>
+          <line>16</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/minimize_cash_flow.rb</url>
+          <line>65</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/algorithms_level_2/minimize_cash_flow.rb</url>
+          <line>50</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -535,6 +559,6 @@
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@paper_cut.rcov" NAME="paper_cut Coverage Results" MODIFIED="1667244113543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort_simple.rcov" NAME="merge_sort_simple Coverage Results" MODIFIED="1667241535063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
     <SUITE FILE_PATH="coverage/algorithms_problems_ruby@merge_sort.rcov" NAME="merge_sort Coverage Results" MODIFIED="1666265596912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
-    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@minimize_cash_flow.rcov" NAME="minimize_cash_flow Coverage Results" MODIFIED="1667297556290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
+    <SUITE FILE_PATH="coverage/algorithms_problems_ruby@minimize_cash_flow.rcov" NAME="minimize_cash_flow Coverage Results" MODIFIED="1667301638925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="algorithms_problems_ruby" />
   </component>
 </project>
