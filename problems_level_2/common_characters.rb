@@ -5,7 +5,7 @@ def common_characters(input)
 
   included = Array.new(input.length){Array.new(alphabet.length,0)} # nested array that will be populated it included letters
 
-  # Cria o nested array com as letras existentes em cada input
+  # CREATE NESTED ARRAY WITH THE LETTERS OF EACH INPUT
   (0..alphabet.length-1).each do |i|
     (0..input.length-1).each do |j|
       if input[j].include?(alphabet[i])
