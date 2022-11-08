@@ -14,5 +14,5 @@ def linear_search(x)
     end
 end
 
-
+# SEARCHED ELEMENT
 puts linear_search(30)
