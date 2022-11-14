@@ -14,9 +14,7 @@ def binary_search(x)
         tamanho_O = tamanho_O + 1 
     end
 
-    p "o termo do meio da lista"
-    mediana = lista[tamanho_O/2]
-    p mediana
+    mediana = lista[tamanho_O/2] # mid term on list
 
     while lista[0] != lista[-1] do
         p "O novo tamanho da lista é"
