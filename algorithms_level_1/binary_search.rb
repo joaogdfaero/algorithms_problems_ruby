@@ -2,27 +2,13 @@
 
 def binary_search(x)
     lista = [10, 20, 80, 30, 60, 50,110, 100, 130, 170]
-    
     lista = lista.sort # order the list
 
-    if lista.include? x
-        p "O elemento está na lista"
-    else
-        p "O elemento NÃO está na lista"
-        exit
-    end
-
-    p "O tamanho original da lista é"
     tamanho_O = lista.length()
-    p tamanho_O
 
-    p "O menor termo da lista é"
-    menor = lista[0] 
-    p menor
+    menor = lista[0] # smallest term from list
 
-    p "O maior termo da lista é"
-    maior = lista[-1]
-    p maior
+    maior = lista[-1] # largest term from list
 
     if tamanho_O.odd?
         tamanho_O = tamanho_O + 1 
