@@ -1,13 +1,9 @@
 # https://www.geeksforgeeks.org/binary-search/
 
 def binary_search(x)
-    p "A lista de números é"
     lista = [10, 20, 80, 30, 60, 50,110, 100, 130, 170]
-    p lista
-
-    p "A lista ordenada é"
-    lista = lista.sort
-    p lista
+    
+    lista = lista.sort # order the list
 
     if lista.include? x
         p "O elemento está na lista"
