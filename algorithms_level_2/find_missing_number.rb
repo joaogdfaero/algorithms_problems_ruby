@@ -2,7 +2,7 @@
 
 def find_missing_number(array)
   numbers = (1..array.max).to_a
-  presence = Array.new(numbers.length,0) 
+  presence = Array.new(numbers.length,0) # array that will register the presence or not of a number
 
   (0..numbers.length).each do |i|
     (0..array.length).each do |j|
@@ -18,9 +18,7 @@ def find_missing_number(array)
       p "The missing number between #{array[0]} and #{array[array.length-1]} is #{i+1}"
     end
   end
-
 end
-
 
 array = [1,2,3,4,6,3,7,8]
 find_missing_number(array)
