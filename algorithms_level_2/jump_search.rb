@@ -15,10 +15,6 @@ def jump_search(array,step, x)
     end
   end
 
-  # alteração feita
-
-
-
 end
 
 
