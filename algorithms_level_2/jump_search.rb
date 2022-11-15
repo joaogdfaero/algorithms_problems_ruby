@@ -1,6 +1,5 @@
 # https://www.geeksforgeeks.org/jump-search/
 
-
 def jump_search(array,step, x)
   m = step
   (0..(array.length - 1)/m).each do |i|
@@ -9,14 +8,13 @@ def jump_search(array,step, x)
     elsif array[m*i] > x
       (m*(i-1)..m*i).each do |i|
         if array[i] == x
-          p "Searched term #{x} está na posição #{i}"
+          p "Searched term #{x} is in position #{m*i}"
         end
       end
     end
   end
 
 end
-
 
 array = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
 step = 4
