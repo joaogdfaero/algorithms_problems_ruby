@@ -1,10 +1,8 @@
 # https://www.geeksforgeeks.org/find-the-missing-number
 
-
 def find_missing_number(array)
   numbers = (1..array.max).to_a
-
-  presence = Array.new(numbers.length,0)
+  presence = Array.new(numbers.length,0) 
 
   (0..numbers.length).each do |i|
     (0..array.length).each do |j|
