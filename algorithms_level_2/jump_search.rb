@@ -5,11 +5,11 @@ def jump_search(array,step, x)
   m = step
   (0..(array.length - 1)/m).each do |i|
     if array[m*i] == x
-      p "O termo #{x} está na posição #{m*i}"
+      p "Searched term #{x} is in position #{m*i}"
     elsif array[m*i] > x
       (m*(i-1)..m*i).each do |i|
         if array[i] == x
-          p "O termo #{x} está na posição #{i}"
+          p "Searched term #{x} está na posição #{i}"
         end
       end
     end
