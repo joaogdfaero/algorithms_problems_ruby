@@ -1,16 +1,13 @@
-# Ordena os ítens usando Bubble sort
+
 def bubble_sort (lista)
-    tamanho = lista.length
-
-
+    tamanho = lista.length # contain list length
+    
     (0..3).each do |j|
         (0..j).each do |i|
             p "O indice i é "
             p i
             if lista[i]>lista[i+1]
                lista[i],lista[i+1] = lista[i+1], lista[i]
-               p "A lista é"
-               p lista
             end
         end
     end
