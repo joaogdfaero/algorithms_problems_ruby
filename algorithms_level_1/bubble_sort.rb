@@ -4,8 +4,6 @@ def bubble_sort (lista)
     
     (0..3).each do |j|
         (0..j).each do |i|
-            p "O indice i é "
-            p i
             if lista[i]>lista[i+1]
                lista[i],lista[i+1] = lista[i+1], lista[i]
             end
