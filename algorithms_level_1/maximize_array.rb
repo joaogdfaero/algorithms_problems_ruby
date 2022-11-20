@@ -1,15 +1,16 @@
 # https://www.geeksforgeeks.org/maximize-array-sun-after-k-negation-operations/
-
-def maximize_array(a,k)
+ # ALGORITHM:
     # 1 find minimum number in array
     # 2 turn that number to number = - number
     # 3 do that k times
     # 4 sum all numbers in the final array
 
+def maximize_array(a,k)
+
     tamanho = a.length
 
     count = 0 # stops when count = k
-(1..tamanho).each do |j| # WE HAVE TO SEE WHAT IS THE EFFECT OF THE DOUBLE LOOP
+(1..tamanho).each do |j| 
     (0..j).each do |i|  
         p "o mínimo é #{a.min}"
         p "a agora é #{a[i]}"
@@ -27,7 +28,7 @@ def maximize_array(a,k)
     end
 end
 
-p "A lista retornada é #{a}"
+p "Returnd list is #{a}"
 sum = 0
    (0..a.length-1).each do |i|
     sum = sum + a[i]
