@@ -2,7 +2,6 @@
 
 def minimum_sum(a)
     p "a = #{a}"
-
     b =[]
     
     while a.length != 1
