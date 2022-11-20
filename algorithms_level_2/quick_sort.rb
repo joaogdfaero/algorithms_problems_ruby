@@ -2,7 +2,6 @@
 # https://www.youtube.com/watch?v=PgBzjlCcFvc&ab_channel=GeeksforGeeks
 
 
-
 def quick_sort(unsorted_array)
   # In case the array is already sorted
   if unsorted_array == unsorted_array.sort
@@ -29,24 +28,14 @@ def quick_sort(unsorted_array)
 
     # works if i just use quick sort again
     recursive = quick_sort(unsorted_array)
-
+    
     # READ: https://medium.com/ambitions-of-a-recovering-salesman/3-simple-steps-for-writing-recursive-methods-in-ruby-or-any-other-language-3d6ee72c0bbc
-    # RECURSION ISN'T WORKING BECAUSE IT KEEPS CALLING HIMSELF AGAIN. IF I COULD USE RECURSION OUTSIDE THE METHOD IT WOULD PROBABLY WORK
-
-    # # apply quick-sort to left and right part (recursion?)
-    # recursive_left = quick_sort(unsorted_array.take(i+1))
-    # p "recursive_left is #{recursive_left}"
-    #
-    # recursive_right = quick_sort(unsorted_array.drop(i+1))
-    # p "recursive_right is #{recursive_right}"
-    #
-    # p unsorted_array.concat(recursive_left).concat(recursive_right)
+    # RECURSION ISN'T WORKING BECAUSE IT KEEPS CALLING HIMSELF AGAIN. IF I COULD USE RECURSION OUTSIDE THE METHOD IT WOULD PROBABLY WOR
 
   end
 
 end
 
 unsorted_array = [10, 80, 30, 90, 40, 50, 70]
-#unsorted_array = [10, 30, 40, 50, 80, 90]
 
 quick_sort(unsorted_array)
