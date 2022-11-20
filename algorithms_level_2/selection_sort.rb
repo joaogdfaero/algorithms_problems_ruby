@@ -4,9 +4,7 @@ def selection_sort(array)
     index_min = array[i..array.length].index(array[i..array.length].min) + i # index o minimum element in array, the "+ i" makes shure that i will not take in consideration the already sorted terms
     array[i],array[index_min] = array[index_min],array[i]
     p array
-
-
-
+    
   end
   p array
 end
