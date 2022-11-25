@@ -44,7 +44,7 @@ def job_sequencing(input)
 
     p "Largest profit is #{profits.max} for job #{jobs[profits.index(profits.max)]}"
 
-    p "A menor deadline é a #{deadlines.min} do job #{jobs[deadlines.index(deadlines.min)]}"
+    p "Smallest deadline is #{deadlines.min} for job #{jobs[deadlines.index(deadlines.min)]}"
 
     maior_lucro = jobs[profits.index(profits.max)]
     menor_deadline = jobs[deadlines.index(deadlines.min)]
