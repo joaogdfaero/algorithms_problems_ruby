@@ -63,8 +63,7 @@ def job_sequencing(input)
       profits.delete_at(deadlines.index(deadlines.min))
 
     end
-
-
+    
     puts "Ideal sequence is #{sequence}"
     p count
 
