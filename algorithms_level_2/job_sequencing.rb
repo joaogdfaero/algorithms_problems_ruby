@@ -28,7 +28,7 @@ def job_sequencing(input)
   end
 
   sequence = [] # FINAL SEQUENCE THAT WILL BE DISPLAYED TO THE USER
-  count = 0 # how many times work was done
+  count = 0 # HOW MANY TIMES WORK WAS DONE
 
   until jobs == [] do
     deleted = 0
@@ -42,7 +42,7 @@ def job_sequencing(input)
       end
     end
 
-    p "O maior lucro é o #{profits.max} do job #{jobs[profits.index(profits.max)]}"
+    p "Largest profit is #{profits.max} for job #{jobs[profits.index(profits.max)]}"
 
     p "A menor deadline é a #{deadlines.min} do job #{jobs[deadlines.index(deadlines.min)]}"
 
