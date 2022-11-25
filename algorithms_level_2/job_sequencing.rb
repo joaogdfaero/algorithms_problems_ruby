@@ -65,7 +65,7 @@ def job_sequencing(input)
     end
 
 
-    puts "A sequência ideal é #{sequence}"
+    puts "Ideal sequence is #{sequence}"
     p count
 
   end
