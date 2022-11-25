@@ -1,6 +1,6 @@
 # https://www.geeksforgeeks.org/job-sequencing-problem/
 
-#ALGORITHM USED TO SOLVE THE PROBLEM:
+#ALGORITHM CREATED TO SOLVE THE PROBLEM:
 # 1 - TAKE JOB WITH MAXIMUM PROFIT
 # 2 - TAKE JOB WITH SHORTEST DEADLINE
 # 3 - IF JOB FROM STEP 1 = JOB FROM STEP 2, DO THIS JOB
@@ -27,11 +27,9 @@ def job_sequencing(input)
     profits.append(input[i][2])
   end
 
-
-  sequence = [] # final sequence that will be displayed to the user
+  sequence = [] # FINAL SEQUENCE THAT WILL BE DISPLAYED TO THE USER
   count = 0 # how many times work was done
 
-  # until count == deadlines_constant.max do -> SUBSTITUI POR ATÉ NÃO TER MAIS NENHUM JOB
   until jobs == [] do
     deleted = 0
     # DELETE A JOB IF IT'S DEADLINE WAS ALREADY REACHED
@@ -64,8 +62,6 @@ def job_sequencing(input)
       deadlines.delete_at(deadlines.index(deadlines.min))
       profits.delete_at(deadlines.index(deadlines.min))
 
-
-
     end
 
 
@@ -76,7 +72,6 @@ def job_sequencing(input)
 
 
 end
-
 
 # JOB, DEADLINE, PROFIT
 input = [["a",4,20],["b",1,40],["c",1,10],["d",1,30]]
