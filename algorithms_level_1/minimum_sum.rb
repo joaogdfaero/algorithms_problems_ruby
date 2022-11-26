@@ -14,7 +14,6 @@ def minimum_sum(a)
     end
     
     return a[0]*b.length
-
 end
 
 a = [2,4,1,3]
