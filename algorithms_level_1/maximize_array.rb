@@ -12,7 +12,7 @@ def maximize_array(a,k)
  
 (1..tamanho).each do |j| 
     (0..j).each do |i|  
-        if a[i] == a.min # the code isn't entering this loop when a[i] == 0 because i is larger than 0 position in array
+        if a[i] == a.min 
             a[i] = - a[i]
             count = count +1
             if count == k 
