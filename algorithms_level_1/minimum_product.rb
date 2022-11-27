@@ -16,9 +16,7 @@ def minimum_product(a)
     (0..a.length-1).each do |i|
         if a[i] != 0
             if (a[i]).remainder(2) == 0
-                p "é par"
                 count_e = count_e + 1
-                p "Temos #{count_e} par"
             end
         end
     end
