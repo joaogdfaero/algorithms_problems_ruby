@@ -2,15 +2,12 @@
 # https://www.geeksforgeeks.org/minimum-product-subset-array/
 
 # We must find the subset of the array that gives us the minimum product result (most negative or lowest number)
-
 def minimum_product(a)
     # count number of zeros
     count_z = 0
     (0..a.length-1).each do |i|
         if a[i]==0
-            p "é zero"
             count_z = count_z + 1
-            p "Temos #{count_z} zeros"
         end
     end
 
