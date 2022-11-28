@@ -55,7 +55,7 @@ def minimum_product(a)
 
      # case 3.1
      if count_p == a.length
-        p "A soma é #{a.max}"
+        p "Sum is #{a.max}"
         exit
      end
 
