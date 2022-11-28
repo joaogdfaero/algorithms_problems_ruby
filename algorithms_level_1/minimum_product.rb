@@ -3,9 +3,9 @@
 
 # ALGORITHM: We must find the subset of the array that gives us the minimum product result (most negative or lowest number)
 
+# STEPS
 # 1. If there are even number of negative numbers and no zeros, the result is the product 
 #of all except the lowest valued negative number.
-
 
 # 2. If there are an odd number of negative numbers and no zeros, the result is simply the product of all.
 
@@ -49,7 +49,7 @@ def minimum_product(a)
         if a[i] < 0
             count_n = count_n + 1
             p count_n
-            p "Temos #{count_n} negativos"
+            p "We have #{count_n} negative numbers"
         end
     end
 
