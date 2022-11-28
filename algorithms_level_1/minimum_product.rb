@@ -68,7 +68,7 @@ def minimum_product(a)
 
             end
         end
-        p "o produto é"
+        p "The product is"
         p prod
     end
 
@@ -91,12 +91,11 @@ def minimum_product(a)
     if count_p > 1
         if count_n == 0
             if count_o !=0
-                p "o produto é 0"
+                p "The product is 0"
             end
         end
     end
 end
-
 
 a = [1, 1, 19, 4, 3]
 minimum_product(a)
