@@ -22,7 +22,7 @@ def maximize_array(a,k)
     end
 end
 
-p "Returnd list is #{a}"
+p "Returned list is #{a}"
 
 sum = 0
    (0..a.length-1).each do |i|
@@ -31,8 +31,6 @@ sum = 0
 
 return sum
 end
-
-
 
 a = [-2, 0, 5, -1, 2]
 k = 4
