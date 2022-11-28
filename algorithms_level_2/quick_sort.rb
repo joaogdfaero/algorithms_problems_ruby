@@ -30,8 +30,6 @@ def quick_sort(unsorted_array)
     recursive = quick_sort(unsorted_array)
     
     # READ: https://medium.com/ambitions-of-a-recovering-salesman/3-simple-steps-for-writing-recursive-methods-in-ruby-or-any-other-language-3d6ee72c0bbc
-    # RECURSION ISN'T WORKING BECAUSE IT KEEPS CALLING HIMSELF AGAIN. IF I COULD USE RECURSION OUTSIDE THE METHOD IT WOULD PROBABLY WOR
-
   end
 
 end
