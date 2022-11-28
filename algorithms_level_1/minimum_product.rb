@@ -1,14 +1,13 @@
 # Minimum product subset of an array
 # https://www.geeksforgeeks.org/minimum-product-subset-array/
 
-# We must find the subset of the array that gives us the minimum product result (most negative or lowest number)
+# ALGORITHM: We must find the subset of the array that gives us the minimum product result (most negative or lowest number)
 
 # 1. If there are even number of negative numbers and no zeros, the result is the product 
 #of all except the lowest valued negative number.
 
 
 # 2. If there are an odd number of negative numbers and no zeros, the result is simply the product of all.
-
 
 # 3. If there are zeros and positive, no negative, the result is 0. 
 #The exceptional case is when there is no negative number and all 
