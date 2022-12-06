@@ -1,18 +1,15 @@
 # https://www.geeksforgeeks.org/find-maximum-sum-possible-equal-sum-three-stacks/
 
 def find_maximum(a,b,c)
-    p a
     sum_a = 0
     (0..a.length-1).each do |i|
         sum_a = sum_a + a[i] 
     end
-    p "A soma de a é #{sum_a}"
 
     sum_b = 0
     (0..b.length-1).each do |i|
         sum_b = sum_b + b[i] 
     end
-    p "A soma de b é #{sum_b}"
 
 
     sum_c = 0
