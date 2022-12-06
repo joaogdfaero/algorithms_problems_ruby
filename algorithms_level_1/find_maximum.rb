@@ -16,15 +16,14 @@ def find_maximum(a,b,c)
     (0..c.length-1).each do |i|
         sum_c = sum_c + c[i] 
     end
-    p "A soma de c é #{sum_c}"
 
 
 
     if sum_a == sum_b && sum_b == sum_c
-        p "A soma é #{sum_a}"
+        p "Maximum sum is #{sum_a}"
     else
         (0..15).each do |j|
-            # REFAZENDO AS SOMAS
+            # ITERATING SUMS
             sum_a = 0
             (0..a.length-1).each do |i|
                 sum_a = sum_a + a[i] 
