@@ -55,23 +55,10 @@ def find_maximum(a,b,c)
                 a.delete_at(0)
             elsif sums[1]==sums.max
                 b.delete_at(0)
-                p "1"
-                p b
             elsif sums[2]==sums.max
                 c.delete_at(0)
-                p "2"
-                p c
-            
-            
-            
-            end
-
-
-
-            
-        end
-            
-        
+            end  
+        end 
     end
 end
 
