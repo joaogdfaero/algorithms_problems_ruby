@@ -2,8 +2,6 @@
 
 def find_maximum(a,b,c)
     p a
-    p b
-    p c
     sum_a = 0
     (0..a.length-1).each do |i|
         sum_a = sum_a + a[i] 
