@@ -12,14 +12,14 @@ def missing_character(frase)
             end
         end
 
-        tamanho = alphabet.length # novo tamanho do alphabeto
+        tamanho = alphabet.length # new alphabet length
         output = []
-
         (0..tamanho-1).to_a.each do |i|
             output.append(alphabet[i]) unless alphabet[i]==0
             p output
         end
         p "Final result is:"
+        p output
         return output
 end
 
