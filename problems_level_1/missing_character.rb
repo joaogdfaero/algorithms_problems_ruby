@@ -2,8 +2,8 @@
 
 def missing_character(frase)
 
-    alphabet = ('a'..'z').to_a # alphabeto
-    tamanho = alphabet.length # tamanho do alphabeto
+    alphabet = ('a'..'z').to_a # alphabet
+    tamanho = alphabet.length # alphabet length
 
         (0..tamanho-1).to_a.each do |i|
             if frase.include? alphabet[i]
