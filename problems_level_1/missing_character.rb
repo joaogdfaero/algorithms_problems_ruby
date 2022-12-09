@@ -7,14 +7,8 @@ def missing_character(frase)
 
         (0..tamanho-1).to_a.each do |i|
             if frase.include? alphabet[i]
-                p "A letra #{alphabet[i]} está na frase"
-                alphabet[i]=0 # anula a letra
-                p "O alfabeto é"
-                p alphabet
+                alphabet[i]=0 # exclude that letter
             else
-                p "A letra #{alphabet[i]} NÃO está na frase"
-                p "O alfabeto é"
-                p alphabet
             end
         end
 
