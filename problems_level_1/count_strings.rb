@@ -19,11 +19,10 @@ def count(input)
     alphabet_l = ('a'..'z').to_a # alphabet lower case
     tamanho_l = alphabet_l.length
     count_l = 0
-
-    p "All numbers are"
+    
     numbers = (0..9).to_a
     tamanho_n = numbers.length
-    numbers = (0..9).to_a.join(", ") # Transforma em array e separa eles por vírgula para poder fazer a comparação
+    numbers = (0..9).to_a.join(", ") # transforms number in array separated by comma
     p numbers
     count_n = 0
 
