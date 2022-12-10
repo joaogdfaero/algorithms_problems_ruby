@@ -26,18 +26,13 @@ def count(input)
     p numbers
     count_n = 0
 
-
     (0..tamanho-1).to_a.each do |i|
         if alphabet_u.include? input[i]
             count_u = count_u + 1
         end
     end
 
-    p "Upper Case Letters:"
-    p count_u
-
     (0..tamanho-1).to_a.each do |i|
-        #if input.include? alphabet_l[i]
         if alphabet_l.include? input[i]
             count_l = count_l + 1
         end
