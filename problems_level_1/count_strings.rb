@@ -31,6 +31,9 @@ def count(input)
             count_u = count_u + 1
         end
     end
+    
+     p "Upper Case Letters:"
+    p count_u
 
     (0..tamanho-1).to_a.each do |i|
         if alphabet_l.include? input[i]
