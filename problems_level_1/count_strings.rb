@@ -16,9 +16,7 @@ def count(input)
     tamanho_u = alphabet_u.length
     count_u = 0
 
-    p "All lower case letters are"
-    alphabet_l = ('a'..'z').to_a # alphabeto
-    p alphabet_l
+    alphabet_l = ('a'..'z').to_a # alphabet lower case
     tamanho_l = alphabet_l.length
     count_l = 0
 
