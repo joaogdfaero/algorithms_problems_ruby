@@ -10,13 +10,9 @@
 # Special Characters : 2
 
 def count(input)
-    p "A frase é"
-    p input
-    tamanho = input.length
+    tamanho = input.length # calculates length of input
 
-    p "All upper case letters are"
-    alphabet_u = ('A'..'Z').to_a # alphabeto
-    p alphabet_u
+    alphabet_u = ('A'..'Z').to_a # alphabet upper case
     tamanho_u = alphabet_u.length
     count_u = 0
 
