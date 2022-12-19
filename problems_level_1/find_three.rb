@@ -25,9 +25,8 @@ input = bubble_sort(lista)
 
 def find_three(input)
     tamanho = input.length # length of list to be ordered
-
-    p "Os três maiores números são"
-    input = input.drop(tamanho-3)
+    
+    input = input.drop(tamanho-3) 
     p input
 end
 
