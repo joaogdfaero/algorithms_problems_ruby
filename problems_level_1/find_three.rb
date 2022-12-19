@@ -27,14 +27,13 @@ def find_three(input)
     tamanho = input.length # length of list to be ordered
     
     input = input.drop(tamanho-3) 
-    p input
+    p input # largest three numbers in list
 end
 
+# driver code
+input = [10, 4, 3, 50, 23, 90]
 find_three(input)
 
-#input = [10, 4, 3, 50, 23, 90]
 
 
 
-
-#find_three(input)
