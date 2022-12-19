@@ -5,11 +5,10 @@
 # Input: arr[] = {10, 4, 3, 50, 23, 90}
 # Output: 90, 50, 23
 
-# Ordena os ítens usando Bubble sort
+# First, order the itens using bubble sort
 def bubble_sort (lista)
     tamanho = lista.length
-
-
+    
     (0..3).each do |j|
         (0..j).each do |i|
             if lista[i]>lista[i+1]
