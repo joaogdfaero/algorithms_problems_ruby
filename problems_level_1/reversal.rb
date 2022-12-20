@@ -24,12 +24,7 @@ def reversal(list,k)
         list[i], list[length+i] = list[length+i], list[i]
     end
 
-    p "A lista aqui é"
-    p list
-    
-    p "Removing zero's in the end of list"
-    list.pop(3)
-    p list
+    list.pop(k)
 
     p "O resultado é"
     p list
