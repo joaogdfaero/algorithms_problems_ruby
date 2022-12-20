@@ -18,8 +18,8 @@ def reversal(list,k)
     (0..k-1).each do
         list = list.prepend(0)
     end
-    p "A list com prepend é #{list}"
-
+    
+    # iterate and swop adjacent elements
     (0..k-1).each do |i|
         list[i], list[length+i] = list[length+i], list[i]
     end
