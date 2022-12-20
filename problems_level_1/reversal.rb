@@ -7,13 +7,8 @@
 # Output: 8 9 10 1 2 3 4 5 6 7
 
 def reversal(list,k)
-    p "A list inicialmente é"
-    p list
 
-    p "A list será girada em #{k} casas"
-
-    length = list.length
-    p "O tamanho da list é #{length}"
+    length = list.lengt
     
     # Create a zeros array with length k
     arr = Array.new(k, 0)
