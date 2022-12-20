@@ -23,10 +23,11 @@ def reversal(list,k)
     (0..k-1).each do |i|
         list[i], list[length+i] = list[length+i], list[i]
     end
-
+    
+    # Removing zero's in the end of list
     list.pop(k)
-
-    p "O resultado é"
+    
+    # result is
     p list
 end
 
