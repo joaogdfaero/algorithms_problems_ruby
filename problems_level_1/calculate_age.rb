@@ -3,7 +3,7 @@
 # Given the current date and birth date, find the present age
 
 #Input : Birth date = 07/09/1996 
-        #Present date = 07/12/2017
+#        Present date = 07/12/2017
 #Output : Present Age = Years: 21  Months: 3  Days: 0
 
 
