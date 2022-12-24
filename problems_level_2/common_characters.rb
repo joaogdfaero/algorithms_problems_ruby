@@ -2,7 +2,6 @@
 def common_characters(input)
   alphabet = ('a'..'z').to_a
 
-
   included = Array.new(input.length){Array.new(alphabet.length,0)} # nested array that will be populated it included letters
 
   # CREATE NESTED ARRAY WITH THE LETTERS OF EACH INPUT
