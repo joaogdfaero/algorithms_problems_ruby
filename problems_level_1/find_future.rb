@@ -2,7 +2,6 @@
 
 # works for q.length = 1
 
-
 def find_future(a,q)
     a1 = []
     a2 = []
