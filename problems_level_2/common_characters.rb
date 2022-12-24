@@ -23,11 +23,7 @@ def common_characters(input)
     end
   end
   p included
-
-
-
 end
-
 
 input = %w[geeksforgeeks gemkstones acknowledges aguelikes]
 common_characters(input)
