@@ -43,7 +43,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - Day Week (hard)
 
 P.S: "Others" folder contains some of the problems and algorithms solved in other languagens then Ruby.
-P.S
+P.S 2:
 
 
 
