@@ -16,7 +16,7 @@ def minimum_sum(a)
     return a[0]*b.length
 end
 
-# Driver Co
+# Driver Code
 a = [2,4,1,3]
 minimum_sum(a)
 
