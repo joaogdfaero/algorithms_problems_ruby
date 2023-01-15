@@ -42,7 +42,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - Sum Minute (medium)
 - Day Week (hard)
 
-P.S 1: There may be some issues with the codes, as I'm a beginner/intermediate in programming
+P.S 1: There may be some issues with the codes, as I'm a beginner/intermediate in programming.
 
 P.S 2: "Others" folder contains some of the problems and algorithms solved in other languagens then Ruby.
 
