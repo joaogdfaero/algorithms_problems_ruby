@@ -42,6 +42,10 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - Sum Minute (medium)
 - Day Week (hard)
 
+**To Do**
+- [ ] Create a RSPEC test for every problem and algorithm.
+
+
 P.S 1: Not every code is 100% functional and well written. I'm a beginner so take everything with a grain of salt.
 
 P.S 2: "Others" folder contains some of the problems and algorithms solved in other languagens then Ruby.
