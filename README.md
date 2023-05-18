@@ -43,7 +43,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - Day Week (hard)
 
 **To Do**
-- [ ] Create a RSPEC test for every problem and algorithm.
+- [ ] Create a RSpec test for every problem and algorithm.
 
 ##
 
