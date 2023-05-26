@@ -42,6 +42,10 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - Sum Minute (medium)
 - Day Week (hard)
 
+**Source**
+[Algorithms and problems description](https://www.geeksforgeeks.org/)
+
+
 **To Do**
 - [ ] Create a RSpec test for every problem and algorithm.
 
