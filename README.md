@@ -43,7 +43,7 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 - Day Week (hard)
 
 **Source**
-[Algorithms and problems description](https://www.geeksforgeeks.org/)
+- [Algorithms and problems description](https://www.geeksforgeeks.org/)
 
 
 **To Do**
