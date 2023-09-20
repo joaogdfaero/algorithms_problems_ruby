@@ -1,4 +1,9 @@
 ## Algorithms and Problems in Ruby
+
+##
+Obs : I wrote this as a beginner, so not every code is 100% functional and well written. Take everything with a grain of salt.
+##
+
 This repository contains algorithms and problems solved by me using Ruby.
 
 Each file contains a description of the algorithms/problem and it's solution. Algorithms and problems are divided by their type and level of difficulty (easy, medium, basic and hard)
@@ -49,11 +54,6 @@ Each file contains a description of the algorithms/problem and it's solution. Al
 **To Do**
 - [ ] Create a RSpec test for every problem and algorithm.
 
-##
-
-P.S 1: Not every code is 100% functional and well written. I'm a beginner so take everything with a grain of salt.
-
-P.S 2: "Others" folder contains some of the problems and algorithms solved in other languagens then Ruby.
 
 Reference: https://www.geeksforgeeks.org/
 
