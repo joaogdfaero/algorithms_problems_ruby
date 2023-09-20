@@ -1,7 +1,7 @@
 ## Algorithms and Problems in Ruby
 
 ##
-Obs : I wrote this as a beginner, so not every code is 100% functional and well written. Take everything with a grain of salt.
+Obs : I wrote this when I was a beginner in coding, so not every code is 100% functional and well written. Take everything with a grain of salt.
 ##
 
 This repository contains algorithms and problems solved by me using Ruby.
